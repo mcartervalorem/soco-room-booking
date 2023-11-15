@@ -7,8 +7,8 @@ Screen1 As screen:
         ZIndex: =1
 
     Button1 As button:
-        Text: ="Button"
-        X: =1004
-        Y: =228
+        Text: ="Kory Button"
+        X: =1008
+        Y: =244
         ZIndex: =2
 
