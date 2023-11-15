@@ -1,0 +1,8 @@
+Screen1 As screen:
+
+    Image1 As image:
+        Height: =768
+        Image: =intro_bg
+        Width: =826
+        ZIndex: =1
+
