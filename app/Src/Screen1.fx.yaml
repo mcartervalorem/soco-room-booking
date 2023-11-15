@@ -6,3 +6,9 @@ Screen1 As screen:
         Width: =826
         ZIndex: =1
 
+    Button1 As button:
+        Text: ="Kory Button"
+        X: =1008
+        Y: =244
+        ZIndex: =2
+
