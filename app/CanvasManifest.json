@@ -131,6 +131,7 @@
   },
   "ScreenOrder": [
     "Home",
-    "Template"
+    "Template",
+    "Screen1"
   ]
 }
