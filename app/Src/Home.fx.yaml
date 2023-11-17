@@ -75,6 +75,7 @@
 
                 Container3 As groupContainer.verticalAutoLayoutContainer:
                     LayoutDirection: =LayoutDirection.Vertical
+                    LayoutGap: =20
                     LayoutJustifyContent: =LayoutJustifyContent.Center
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
@@ -148,7 +149,7 @@
                             PressedBorderColor: =Label2.BorderColor
                             PressedColor: =Label2.Color
                             PressedFill: =Label2.Fill
-                            Size: =21
+                            Size: =18
                             Text: ="OR"
                             Width: =98
                             X: =85
@@ -192,22 +193,21 @@
                         Width: =275
                         ZIndex: =3
 
-                Container4 As groupContainer.horizontalAutoLayoutContainer:
+                ctr_Nav As groupContainer.horizontalAutoLayoutContainer:
                     BorderColor: =RGBA(151, 151, 151, 1)
                     BorderStyle: =If(Home.Size = ScreenSize.Small,  BorderStyle.Solid, BorderStyle.None)
                     BorderThickness: =1
                     FillPortions: =0
                     Height: =50
                     LayoutAlignItems: =LayoutAlignItems.Center
-                    LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                    LayoutGap: =30
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
                     LayoutMinHeight: =50
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
-                    PaddingLeft: =75
-                    PaddingRight: =75
                     ZIndex: =2
 
-                    Icon1 As icon.Home:
+                    btn_Home As icon.Home:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         Color: =RGBA(0, 120, 212, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -225,7 +225,7 @@
                         Width: =35
                         ZIndex: =1
 
-                    Icon2 As icon.ListScrollWatchlist:
+                    btn_MyBookings As icon.ListScrollWatchlist:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         Color: =RGBA(0, 120, 212, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -243,7 +243,7 @@
                         Width: =35
                         ZIndex: =2
 
-                    Icon3 As icon.Map:
+                    btn_Rooms As icon.Map:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         Color: =RGBA(0, 120, 212, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -261,7 +261,7 @@
                         Width: =35
                         ZIndex: =3
 
-                    Icon4 As icon.Settings:
+                    btn_Settings As icon.Settings:
                         BorderColor: =RGBA(166, 166, 166, 1)
                         Color: =RGBA(0, 120, 212, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
