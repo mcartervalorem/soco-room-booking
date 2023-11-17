@@ -1,24 +1,7 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
-        =Set(SOCOTheme, {Name: "SOCOTheme", Colors:{
-            Darker10: Color.Red,
-            Darker20: Color.Red,
-            Darker30: Color.Red,
-            Darker40: Color.Red,
-            Darker50: Color.Red,
-            Darker60: Color.Red,
-            Darker70: Color.Red,
-            Lighter10: Color.Red,
-            Lighter20: Color.Red,
-            Lighter30: Color.Red,
-            Lighter40: Color.Red,
-            Lighter50: Color.Red,
-            Lighter60: Color.Red,
-            Lighter70: Color.Red,
-            Primary: Color.Red
-            }});
-    Theme: =SOCOTheme
+    OnStart: =
+    Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false
