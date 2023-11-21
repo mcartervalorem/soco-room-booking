@@ -131,7 +131,8 @@
   },
   "ScreenOrder": [
     "Home",
-    "Template",
-    "Screen1"
+    "DevScreen",
+    "AdminPanel",
+    "Template"
   ]
 }

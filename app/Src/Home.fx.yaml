@@ -1,9 +1,9 @@
-"Home As screen.'autoLayout_Sidebar_ver1.0'":
+"Home As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer2 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
-        Fill: =Color.White
+        Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -15,267 +15,248 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        BottomContainer2 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            Fill: =Color.White
-            LayoutAlignItems: =LayoutAlignItems.Stretch
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutGap: =20
+            LayoutJustifyContent: =If(Home.Size <> 1, LayoutJustifyContent.Start, LayoutJustifyContent.Center)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            LayoutWrap: =true
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
+            PaddingLeft: =If(Home.Size <> 1, 40, 0)
+            ZIndex: =2
+
+            Image2 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =36
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =Logo
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =250
+                ZIndex: =1
+
+            Label1 As label:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =36
+                PaddingBottom: =0
+                Size: =18
+                Text: ="Room Booking App"
+                Visible: =Home.Size <> 1
+                Width: =350
+                ZIndex: =2
+
+        MainContainer1 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =gblColors.Background
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            MainContainer2 As groupContainer.verticalAutoLayoutContainer:
-                Fill: =RGBA(255, 255, 255, 1)
-                FillPortions: =7
-                LayoutDirection: =LayoutDirection.Vertical
+            Container2 As groupContainer.horizontalAutoLayoutContainer:
+                FillPortions: =0
+                Height: =10
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
                 ZIndex: =1
 
-                Image3 As image:
+                Rectangle2 As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FillPortions: =1
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Red
                     FocusedBorderThickness: =4
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Image: =intro_bg
-                    ImagePosition: =ImagePosition.Stretch
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    Width: =Parent.Width
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
                     ZIndex: =1
 
-            SidebarContainer2 As groupContainer.verticalAutoLayoutContainer:
-                Fill: =RGBA(255, 255, 255, 1)
-                FillPortions: =3
+                Rectangle3 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Blue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =2
+
+                Rectangle4 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightBlue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =3
+
+                Rectangle5 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightGreen
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =4
+
+                Rectangle6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Yellow
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =5
+
+            Image1 As image:
+                AlignInContainer: =AlignInContainer.Stretch
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =322
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =HomeImage
+                ImagePosition: =ImagePosition.Fill
+                LayoutMinHeight: =322
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Visible: =Home.Size <> 1
+                ZIndex: =2
+
+            Image5 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =280
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =HomeImage_Mobile
+                ImagePosition: =ImagePosition.Fill
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Visible: =Home.Size = 1
+                Width: =490
+                ZIndex: =3
+
+            Container4 As groupContainer.horizontalAutoLayoutContainer:
+                Fill: =gblColors.Background
                 LayoutDirection: =LayoutDirection.Vertical
-                LayoutJustifyContent: =LayoutJustifyContent.Center
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                ZIndex: =2
+                ZIndex: =4
 
-                Container3 As groupContainer.verticalAutoLayoutContainer:
-                    LayoutDirection: =LayoutDirection.Vertical
-                    LayoutGap: =20
+                Container5 As groupContainer.horizontalAutoLayoutContainer:
+                    LayoutGap: =30
                     LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =If(Home.Size <> 1, cmp_HomeButton_1.Height + 60, cmp_HomeButton_1.Height * 3 + 120)
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    LayoutWrap: =true
+                    PaddingTop: =30
+                    ZIndex: =1
+
+                    cmp_HomeButton_1 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_1.ScreenSize <> 1, 200, 70)
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        ScreenSize: =Home.Size
+                        Width: =If(cmp_HomeButton_1.ScreenSize <> 1, 350, 350)
+
+                    cmp_HomeButton_2 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_2.ScreenSize <> 1, 200, 70)
+                        Image: =Calendar
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        ScreenSize: =Home.Size
+                        Text: ="Book a Room without Meeting"
+                        Width: =If(cmp_HomeButton_2.ScreenSize <> 1, 350, 350)
+                        ZIndex: =2
+
+                    cmp_HomeButton_3 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_3.ScreenSize <> 1, 200, 70)
+                        Image: =Building
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        ScreenSize: =Home.Size
+                        Text: ="My Bookings"
+                        Width: =If(cmp_HomeButton_3.ScreenSize <> 1, 350, 350)
+                        ZIndex: =3
+
+                Container7 As groupContainer.horizontalAutoLayoutContainer:
+                    Fill: =gblColors.Background
+                    Height: =100
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
-                    ZIndex: =1
+                    ZIndex: =3
 
-                    Button3 As button:
-                        AlignInContainer: =AlignInContainer.Center
-                        BorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
-                        DisabledFill: =RGBA(244, 244, 244, 1)
-                        Fill: =RGBA(0, 42, 74, 1)
-                        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                        Font: =Font.'Segoe UI'
-                        FontWeight: =FontWeight.Semibold
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =RGBA(255, 255, 255, 1)
-                        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-                        PressedColor: =RGBA(255, 255, 255, 1)
-                        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
-                        Text: ="Book for an existing meeting"
-                        Width: =300
-                        ZIndex: =1
+                    cmp_AdminButton_1 As cmp_AdminButton:
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =100
+                        NavScreen: =AdminPanel
+                        ScreenSize: =Home.Size
+                        Width: =If(Home.Size <> 1, cmp_HomeButton_1.Width * 3 + 60, cmp_HomeButton_1.Width)
 
-                    Container1 As groupContainer.horizontalAutoLayoutContainer:
-                        BorderStyle: =BorderStyle.None
-                        FillPortions: =0
-                        Height: =50
-                        LayoutAlignItems: =LayoutAlignItems.Center
-                        LayoutJustifyContent: =LayoutJustifyContent.Center
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =250
-                        LayoutMode: =LayoutMode.Auto
-                        PaddingLeft: =20
-                        PaddingRight: =20
-                        ZIndex: =2
-
-                        Rectangle1 As rectangle:
-                            BorderColor: =RGBA(101, 128, 187, 1)
-                            DisabledFill: =Rectangle1.Fill
-                            Fill: =RGBA(151, 151, 151, 1)
-                            FocusedBorderColor: =Rectangle1.BorderColor
-                            Height: =1
-                            HoverFill: =Rectangle1.Fill
-                            PressedFill: =Rectangle1.Fill
-                            Width: =130
-                            X: =292
-                            Y: =37
-                            ZIndex: =1
-
-                        Label2 As label:
-                            Align: =LayoutAlignItems.Center
-                            BorderColor: =RGBA(101, 128, 187, 1)
-                            Color: =RGBA(120, 120, 120, 1)
-                            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
-                            FocusedBorderColor: =Label2.BorderColor
-                            Height: =74
-                            HoverBorderColor: =Label2.BorderColor
-                            HoverColor: =Label2.Color
-                            HoverFill: =Label2.Fill
-                            PressedBorderColor: =Label2.BorderColor
-                            PressedColor: =Label2.Color
-                            PressedFill: =Label2.Fill
-                            Size: =18
-                            Text: ="OR"
-                            Width: =98
-                            X: =85
-                            Y: =339
-                            ZIndex: =2
-
-                        Rectangle1_1 As rectangle:
-                            BorderColor: =RGBA(101, 128, 187, 1)
-                            DisabledFill: =Rectangle1_1.Fill
-                            Fill: =RGBA(151, 151, 151, 1)
-                            FocusedBorderColor: =Rectangle1_1.BorderColor
-                            Height: =1
-                            HoverFill: =Rectangle1_1.Fill
-                            PressedFill: =Rectangle1_1.Fill
-                            Width: =130
-                            X: =559
-                            Y: =37
-                            ZIndex: =3
-
-                    Button4 As button:
-                        AlignInContainer: =AlignInContainer.Center
-                        BorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
-                        DisabledFill: =RGBA(244, 244, 244, 1)
-                        Fill: =RGBA(0, 120, 212, 1)
-                        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                        Font: =Font.'Segoe UI'
-                        FontWeight: =FontWeight.Semibold
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =RGBA(255, 255, 255, 1)
-                        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-                        PressedColor: =RGBA(255, 255, 255, 1)
-                        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
-                        Text: ="Book without a meeting"
-                        Width: =275
-                        ZIndex: =3
-
-                ctr_Nav As groupContainer.horizontalAutoLayoutContainer:
-                    BorderColor: =RGBA(151, 151, 151, 1)
-                    BorderStyle: =If(Home.Size = ScreenSize.Small,  BorderStyle.Solid, BorderStyle.None)
-                    BorderThickness: =1
-                    FillPortions: =0
-                    Height: =50
-                    LayoutAlignItems: =LayoutAlignItems.Center
-                    LayoutGap: =30
-                    LayoutJustifyContent: =LayoutJustifyContent.Center
-                    LayoutMinHeight: =50
-                    LayoutMinWidth: =250
-                    LayoutMode: =LayoutMode.Auto
-                    ZIndex: =2
-
-                    btn_Home As icon.Home:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        Color: =RGBA(0, 120, 212, 1)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(220, 220, 220, 1)
-                        DisabledFill: =RGBA(0, 0, 0, 0)
-                        FocusedBorderThickness: =4
-                        Height: =35
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        HoverFill: =RGBA(0, 0, 0, 0)
-                        Icon: =Icon.Home
-                        PressedBorderColor: =RGBA(0, 0, 0, 0)
-                        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        PressedFill: =RGBA(0, 0, 0, 0)
-                        Width: =35
-                        ZIndex: =1
-
-                    btn_MyBookings As icon.ListScrollWatchlist:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        Color: =RGBA(0, 120, 212, 1)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(220, 220, 220, 1)
-                        DisabledFill: =RGBA(0, 0, 0, 0)
-                        FocusedBorderThickness: =4
-                        Height: =35
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        HoverFill: =RGBA(0, 0, 0, 0)
-                        Icon: =Icon.ListScrollWatchlist
-                        PressedBorderColor: =RGBA(0, 0, 0, 0)
-                        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        PressedFill: =RGBA(0, 0, 0, 0)
-                        Width: =35
-                        ZIndex: =2
-
-                    btn_Rooms As icon.Map:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        Color: =RGBA(0, 120, 212, 1)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(220, 220, 220, 1)
-                        DisabledFill: =RGBA(0, 0, 0, 0)
-                        FocusedBorderThickness: =4
-                        Height: =35
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        HoverFill: =RGBA(0, 0, 0, 0)
-                        Icon: =Icon.Location
-                        PressedBorderColor: =RGBA(0, 0, 0, 0)
-                        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        PressedFill: =RGBA(0, 0, 0, 0)
-                        Width: =35
-                        ZIndex: =3
-
-                    btn_Settings As icon.Settings:
-                        BorderColor: =RGBA(166, 166, 166, 1)
-                        Color: =RGBA(0, 120, 212, 1)
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(220, 220, 220, 1)
-                        DisabledFill: =RGBA(0, 0, 0, 0)
-                        FocusedBorderThickness: =4
-                        Height: =35
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        HoverFill: =RGBA(0, 0, 0, 0)
-                        Icon: =Icon.Settings
-                        PressedBorderColor: =RGBA(0, 0, 0, 0)
-                        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                        PressedFill: =RGBA(0, 0, 0, 0)
-                        Width: =35
-                        ZIndex: =4
+    Label1_3 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        PaddingBottom: =0
+        Size: =18
+        Text: ="Room Booking App"
+        Visible: =Home.Size = 1
+        Width: =350
+        X: =13
+        Y: =88
+        ZIndex: =2
 

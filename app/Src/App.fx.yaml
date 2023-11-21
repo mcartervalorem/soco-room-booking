@@ -1,6 +1,17 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =
+    OnStart: |-
+        =Set(
+            gblColors,
+            {
+                Red: ColorValue("#EC1C24"),
+                Blue: ColorValue("#007DB9"),
+                LightBlue: ColorValue("#00BCF1"),
+                LightGreen: ColorValue("#B2D235"),
+                Yellow: ColorValue("#FDB714"), // secondary
+                Background: ColorValue("#F4F4F4")
+            }
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

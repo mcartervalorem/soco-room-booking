@@ -1,0 +1,212 @@
+cmp_Navigation As CanvasComponent:
+    Color: |-
+        =ColorValue("#00BCF1")
+    Fill: =RGBA(0, 0, 0, 0)
+    FocusedColor: |-
+        =ColorValue("#007DB9")
+    FocusedNav: =2
+    Height: =55
+    Items: |-
+        =Table(
+            {
+                Text: "Book a Room with a Meeting",
+                Screen: App.ActiveScreen,
+                Index: 0
+            },
+            {
+                Text: "Book a Room without a Meeting",
+                Screen: App.ActiveScreen,
+                Index: 1
+            },
+            {
+                Text: "My Bookings",
+                Screen: App.ActiveScreen,
+                Index: 2
+            },
+            {
+                Text: "Admin Panel",
+                Screen: App.ActiveScreen,
+                Index: 3
+            }
+        )
+    Width: =App.DesignWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container3 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height - 5
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        Y: =10
+        ZIndex: =2
+
+        Container1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.Start
+            Height: =Parent.Height
+            LayoutMinHeight: =50
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            Y: =40
+            ZIndex: =1
+
+            Label2 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =If(cmp_Navigation.FocusedNav = 1, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(cmp_Navigation.FocusedNav = 1, FontWeight.Semibold, FontWeight.Normal)
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 0, Screen), ScreenTransition.CoverRight)
+                PaddingBottom: =0
+                Size: =16
+                Text: =LookUp(cmp_Navigation.Items, Index = 0, Text)
+                Width: =300
+                ZIndex: =1
+
+            Label2_1 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =If(cmp_Navigation.FocusedNav = 2, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(cmp_Navigation.FocusedNav = 2, FontWeight.Semibold, FontWeight.Normal)
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 1, Screen), ScreenTransition.CoverRight)
+                PaddingBottom: =0
+                Size: =16
+                Text: =LookUp(cmp_Navigation.Items, Index = 1, Text)
+                Width: =330
+                ZIndex: =2
+
+            Label2_2 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =If(cmp_Navigation.FocusedNav = 3, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(cmp_Navigation.FocusedNav = 3, FontWeight.Semibold, FontWeight.Normal)
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
+                PaddingBottom: =0
+                Size: =16
+                Text: =LookUp(cmp_Navigation.Items, Index = 2, Text)
+                Width: =145
+                ZIndex: =3
+
+            Label2_3 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =If(cmp_Navigation.FocusedNav = 4, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(cmp_Navigation.FocusedNav = 4, FontWeight.Semibold, FontWeight.Normal)
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
+                PaddingBottom: =0
+                Size: =16
+                Text: =LookUp(cmp_Navigation.Items, Index = 3, Text)
+                Width: =145
+                ZIndex: =4
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =cmp_Navigation.FocusedColor
+        FocusedBorderThickness: =4
+        Height: =3
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Visible: =cmp_Navigation.FocusedNav = 1
+        Width: =272
+        X: =13
+        Y: =47
+        ZIndex: =3
+
+    Rectangle1_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =cmp_Navigation.FocusedColor
+        FocusedBorderThickness: =4
+        Height: =3
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Visible: =cmp_Navigation.FocusedNav = 2
+        Width: =310
+        X: =310
+        Y: =47
+        ZIndex: =4
+
+    Rectangle1_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =cmp_Navigation.FocusedColor
+        FocusedBorderThickness: =4
+        Height: =3
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Visible: =cmp_Navigation.FocusedNav = 3
+        Width: =122
+        X: =642
+        Y: =47
+        ZIndex: =5
+
+    Rectangle1_3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =cmp_Navigation.FocusedColor
+        FocusedBorderThickness: =4
+        Height: =3
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Visible: =cmp_Navigation.FocusedNav = 4
+        Width: =120
+        X: =788
+        Y: =47
+        ZIndex: =6
+
+    Rectangle7 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: |-
+            =ColorValue("#F4F4F4")
+        Fill: |-
+            =ColorValue("#F4F4F4")
+        FocusedBorderThickness: =4
+        Height: =2
+        HoverFill: |-
+            =ColorValue("#F4F4F4")
+        PressedFill: |-
+            =ColorValue("#F4F4F4")
+        Width: =Parent.Width
+        Y: =52
+        ZIndex: =7
+
