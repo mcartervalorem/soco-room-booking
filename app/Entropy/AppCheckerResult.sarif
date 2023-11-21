@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2_3"
+                "type": "cmp_Navigation.Container3.Container1.Label2_1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2_1"
+                "type": "cmp_Navigation.Container3.Container1.Label2_3"
               }
             }
           ],
