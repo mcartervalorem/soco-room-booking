@@ -131,10 +131,9 @@
   },
   "ScreenOrder": [
     "Home",
-    "DevScreen",
-    "AdminPanel",
-    "Template",
     "BookRoomWith",
-    "BookRoomWithout"
+    "BookRoomWithout",
+    "AdminPanel",
+    "Template"
   ]
 }
