@@ -11,7 +11,29 @@ App As appinfo:
                 Yellow: ColorValue("#FDB714"), // secondary
                 Background: ColorValue("#F4F4F4")
             }
-        )
+        );
+        ClearCollect(colNavItems, Table(
+            {
+                Text: "Book a Room with a Meeting",
+                Screen: BookRoomWith,
+                Index: 0
+            },
+            {
+                Text: "Book a Room without a Meeting",
+                Screen: BookRoomWithout,
+                Index: 1
+            },
+            {
+                Text: "My Bookings",
+                Screen: App.ActiveScreen,
+                Index: 2
+            },
+            {
+                Text: "Admin Panel",
+                Screen: AdminPanel,
+                Index: 3
+            }
+        ));
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

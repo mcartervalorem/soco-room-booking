@@ -143,6 +143,7 @@
                     ZIndex: =5
 
             cmp_Navigation_2 As cmp_Navigation:
+                Items: =colNavItems
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
                 Visible: =BookRoomWith.Size <> 1
@@ -155,6 +156,7 @@
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                PaddingLeft: =10
                 Visible: =BookRoomWith.Size = 1
                 ZIndex: =3
 
@@ -169,6 +171,7 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =LeftArrow
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =35
@@ -185,6 +188,7 @@
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Height: =35
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
                     Text: ="Home"
                     Width: =75
                     ZIndex: =2

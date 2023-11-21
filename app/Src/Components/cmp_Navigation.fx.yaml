@@ -51,7 +51,7 @@ cmp_Navigation As CanvasComponent:
             Y: =40
             ZIndex: =1
 
-            Label2 As label:
+            lbl_0 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -70,7 +70,7 @@ cmp_Navigation As CanvasComponent:
                 Width: =275
                 ZIndex: =1
 
-            Label2_1 As label:
+            lbl_1 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -89,7 +89,7 @@ cmp_Navigation As CanvasComponent:
                 Width: =285
                 ZIndex: =2
 
-            Label2_2 As label:
+            lbl_2 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -108,7 +108,7 @@ cmp_Navigation As CanvasComponent:
                 Width: =135
                 ZIndex: =3
 
-            Label2_3 As label:
+            lbl_3 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -127,7 +127,7 @@ cmp_Navigation As CanvasComponent:
                 Width: =135
                 ZIndex: =4
 
-    Rectangle1 As rectangle:
+    shp_Underline0 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -143,7 +143,7 @@ cmp_Navigation As CanvasComponent:
         Y: =32
         ZIndex: =3
 
-    Rectangle1_1 As rectangle:
+    shp_Underline1 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -159,7 +159,7 @@ cmp_Navigation As CanvasComponent:
         Y: =32
         ZIndex: =4
 
-    Rectangle1_2 As rectangle:
+    shp_Underline2 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -175,7 +175,7 @@ cmp_Navigation As CanvasComponent:
         Y: =32
         ZIndex: =5
 
-    Rectangle1_3 As rectangle:
+    shp_Underline3 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -191,7 +191,7 @@ cmp_Navigation As CanvasComponent:
         Y: =32
         ZIndex: =6
 
-    Rectangle7 As rectangle:
+    shp_Divider As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2

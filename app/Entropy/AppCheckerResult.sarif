@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_0.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_0.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2"
+                "type": "cmp_Navigation.Container3.Container1.lbl_0"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_1.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2_1"
+                "type": "cmp_Navigation.Container3.Container1.lbl_1"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_2.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_2.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2_2"
+                "type": "cmp_Navigation.Container3.Container1.lbl_2"
               }
             }
           ],
@@ -104,19 +104,199 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex"
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.Label2_3.TabIndex",
+                  "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cmp_Navigation",
-                "type": "cmp_Navigation.Container3.Container1.Label2_3"
+                "type": "cmp_Navigation.Container3.Container1.lbl_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWith",
+                "type": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookRoomWith",
+                "type": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWith",
+                "type": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Image3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
               }
             }
           ],
@@ -150,6 +330,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             }
           ],

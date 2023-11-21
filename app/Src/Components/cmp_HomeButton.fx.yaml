@@ -73,6 +73,7 @@ cmp_HomeButton As CanvasComponent:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
+        OnSelect: =Navigate(cmp_HomeButton.NavScreen, ScreenTransition.CoverRight)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =
