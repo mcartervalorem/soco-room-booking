@@ -4,8 +4,8 @@ cmp_Navigation As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     FocusedColor: |-
         =ColorValue("#007DB9")
-    FocusedNav: =2
-    Height: =55
+    FocusedNav: =0
+    Height: =40
     Items: |-
         =Table(
             {
@@ -39,13 +39,12 @@ cmp_Navigation As CanvasComponent:
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width
-        Y: =10
         ZIndex: =2
 
         Container1 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.Start
             Height: =Parent.Height
-            LayoutMinHeight: =50
+            LayoutMinHeight: =35
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             Width: =Parent.Width
@@ -58,20 +57,39 @@ cmp_Navigation As CanvasComponent:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
+                Color: =If(cmp_Navigation.FocusedNav = 0, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =If(cmp_Navigation.FocusedNav = 0, FontWeight.Semibold, FontWeight.Normal)
+                Height: =35
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 0, Screen), ScreenTransition.CoverRight)
+                PaddingBottom: =0
+                Text: =LookUp(cmp_Navigation.Items, Index = 0, Text)
+                Width: =275
+                ZIndex: =1
+
+            Label2_1 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
                 Color: =If(cmp_Navigation.FocusedNav = 1, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 1, FontWeight.Semibold, FontWeight.Normal)
-                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 0, Screen), ScreenTransition.CoverRight)
+                Height: =35
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 1, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
-                Size: =16
-                Text: =LookUp(cmp_Navigation.Items, Index = 0, Text)
-                Width: =300
-                ZIndex: =1
+                Text: =LookUp(cmp_Navigation.Items, Index = 1, Text)
+                Width: =285
+                ZIndex: =2
 
-            Label2_1 As label:
+            Label2_2 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -83,14 +101,14 @@ cmp_Navigation As CanvasComponent:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 2, FontWeight.Semibold, FontWeight.Normal)
-                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 1, Screen), ScreenTransition.CoverRight)
+                Height: =35
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
-                Size: =16
-                Text: =LookUp(cmp_Navigation.Items, Index = 1, Text)
-                Width: =330
-                ZIndex: =2
+                Text: =LookUp(cmp_Navigation.Items, Index = 2, Text)
+                Width: =135
+                ZIndex: =3
 
-            Label2_2 As label:
+            Label2_3 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.End
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -102,30 +120,11 @@ cmp_Navigation As CanvasComponent:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 3, FontWeight.Semibold, FontWeight.Normal)
+                Height: =35
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
-                Size: =16
-                Text: =LookUp(cmp_Navigation.Items, Index = 2, Text)
-                Width: =145
-                ZIndex: =3
-
-            Label2_3 As label:
-                Align: =Align.Center
-                AlignInContainer: =AlignInContainer.End
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =If(cmp_Navigation.FocusedNav = 4, cmp_Navigation.FocusedColor, cmp_Navigation.Color)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                FontWeight: =If(cmp_Navigation.FocusedNav = 4, FontWeight.Semibold, FontWeight.Normal)
-                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
-                PaddingBottom: =0
-                Size: =16
                 Text: =LookUp(cmp_Navigation.Items, Index = 3, Text)
-                Width: =145
+                Width: =135
                 ZIndex: =4
 
     Rectangle1 As rectangle:
@@ -138,10 +137,10 @@ cmp_Navigation As CanvasComponent:
         Height: =3
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Visible: =cmp_Navigation.FocusedNav = 1
-        Width: =272
-        X: =13
-        Y: =47
+        Visible: =cmp_Navigation.FocusedNav = 0
+        Width: =245
+        X: =15
+        Y: =32
         ZIndex: =3
 
     Rectangle1_1 As rectangle:
@@ -154,10 +153,10 @@ cmp_Navigation As CanvasComponent:
         Height: =3
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Visible: =cmp_Navigation.FocusedNav = 2
-        Width: =310
-        X: =310
-        Y: =47
+        Visible: =cmp_Navigation.FocusedNav = 1
+        Width: =275
+        X: =280
+        Y: =32
         ZIndex: =4
 
     Rectangle1_2 As rectangle:
@@ -170,10 +169,10 @@ cmp_Navigation As CanvasComponent:
         Height: =3
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Visible: =cmp_Navigation.FocusedNav = 3
-        Width: =122
-        X: =642
-        Y: =47
+        Visible: =cmp_Navigation.FocusedNav = 2
+        Width: =112
+        X: =572
+        Y: =32
         ZIndex: =5
 
     Rectangle1_3 As rectangle:
@@ -186,10 +185,10 @@ cmp_Navigation As CanvasComponent:
         Height: =3
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Visible: =cmp_Navigation.FocusedNav = 4
-        Width: =120
-        X: =788
-        Y: =47
+        Visible: =cmp_Navigation.FocusedNav = 3
+        Width: =105
+        X: =710
+        Y: =32
         ZIndex: =6
 
     Rectangle7 As rectangle:
@@ -201,12 +200,12 @@ cmp_Navigation As CanvasComponent:
         Fill: |-
             =ColorValue("#F4F4F4")
         FocusedBorderThickness: =4
-        Height: =2
+        Height: =4
         HoverFill: |-
             =ColorValue("#F4F4F4")
         PressedFill: |-
             =ColorValue("#F4F4F4")
         Width: =Parent.Width
-        Y: =52
+        Y: =35
         ZIndex: =7
 

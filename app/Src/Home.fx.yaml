@@ -201,6 +201,7 @@
                         Height: =If(cmp_HomeButton_1.ScreenSize <> 1, 200, 70)
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640
+                        NavScreen: =BookRoomWith
                         ScreenSize: =Home.Size
                         Width: =If(cmp_HomeButton_1.ScreenSize <> 1, 350, 350)
 
@@ -209,6 +210,7 @@
                         Image: =Calendar
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640
+                        NavScreen: =BookRoomWithout
                         ScreenSize: =Home.Size
                         Text: ="Book a Room without Meeting"
                         Width: =If(cmp_HomeButton_2.ScreenSize <> 1, 350, 350)

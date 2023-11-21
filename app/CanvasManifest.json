@@ -133,6 +133,8 @@
     "Home",
     "DevScreen",
     "AdminPanel",
-    "Template"
+    "Template",
+    "BookRoomWith",
+    "BookRoomWithout"
   ]
 }
