@@ -1,7 +1,7 @@
 "AdminPanel As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainerAdminPanel As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
@@ -15,7 +15,8 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainerAdminPanel As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
@@ -44,7 +45,6 @@
                 ZIndex: =1
 
             Label1_1 As label:
-                AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -59,7 +59,8 @@
                 Width: =350
                 ZIndex: =2
 
-        MainContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+        MainContainerAdminPanel As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
@@ -68,6 +69,7 @@
             ZIndex: =3
 
             Container_AdminPanelColorBanner As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -149,6 +151,7 @@
                 ZIndex: =2
 
             Container_AdminPanelBackHome As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderStyle: =BorderStyle.None
                 FillPortions: =0
                 Height: =35

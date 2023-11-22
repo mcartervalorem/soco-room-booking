@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2.AccessibleLabel"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2.AccessibleLabel",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2"
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2"
               }
             }
           ],
@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2.TabIndex"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2.TabIndex",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Image3_2"
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Label3_2.TabIndex"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Label3_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Label3_2.TabIndex",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Label3_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Label3_2"
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Label3_2"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_AdminPanel.Visible"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.cmp_Navigation_AdminPanel.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_AdminPanel.Visible",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.cmp_Navigation_AdminPanel.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Visible",
                 "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_AdminPanel"
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.cmp_Navigation_AdminPanel"
               }
             }
           ],
@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Visible"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome.Visible",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Visible",
                 "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.Container_AdminPanelBackHome"
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome"
               }
             }
           ],
