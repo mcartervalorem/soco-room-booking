@@ -226,7 +226,7 @@
                     RadiusTopRight: =0
                     Size: =13
                     X: =40
-                    Y: =151
+                    Y: =128
                     ZIndex: =1
 
                 TextInput2 As text:
@@ -251,7 +251,7 @@
                     RadiusTopRight: =0
                     Size: =13
                     X: =40
-                    Y: =261
+                    Y: =234
                     ZIndex: =2
 
                 Label2 As label:
@@ -269,7 +269,7 @@
                     Text: ="Log In Here to Access the Admin Panel"
                     Width: =603
                     X: =40
-                    Y: =42
+                    Y: =15
                     ZIndex: =3
 
                 Label2_1 As label:
@@ -285,7 +285,7 @@
                     Size: =13
                     Text: ="Login"
                     X: =40
-                    Y: =111
+                    Y: =88
                     ZIndex: =4
 
                 Label2_2 As label:
@@ -301,7 +301,7 @@
                     Size: =13
                     Text: ="Password"
                     X: =40
-                    Y: =221
+                    Y: =194
                     ZIndex: =5
 
                 Button1 As button:
