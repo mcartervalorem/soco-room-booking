@@ -1,5 +1,6 @@
 "AdminPanel As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: =Set(Labeltxt,false)
 
     ScreenContainerAdminPanel As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -149,6 +150,7 @@
                     HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
+                    Mode: =TextMode.Password
                     PressedBorderColor: =RGBA(0, 120, 212, 1)
                     PressedColor: =RGBA(51, 51, 51, 1)
                     PressedFill: =RGBA(255, 255, 255, 1)
@@ -226,6 +228,9 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+                    OnSelect: |-
+                        =Set(userrolevalue,LookUp(userCredential,'User Name'.Email=TextInput2.Text And Password=TextInput3.Text).Role);
+                        If(IsBlankOrError(userrolevalue),Notify("Incorrect Username & Password"),Switch(userrolevalue,"Admin", Navigate(Screen1),"Requester",Navigate(Screen3),"Reviewer",Navigate(Screen4));Reset(TextInput2);Reset(TextInput3);
                     PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
