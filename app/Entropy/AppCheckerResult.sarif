@@ -134,19 +134,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex"
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex",
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "BookRoomWith",
-                "type": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3"
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
               }
             }
           ],
@@ -224,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
+                  "fullyQualifiedName": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
+                "module": "BookRoomWith",
+                "type": "BookRoomWith.ScreenContainer1_3.MainContainer1_3.Container8.Label3"
               }
             }
           ],
@@ -254,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_4.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_4.Visible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+                "member": "Visible",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_4"
               }
             }
           ],
@@ -276,38 +336,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -347,6 +377,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "app-InefficientDelayLoading",
+              "messageStrings": {
+                "issue": {
+                  "text": "Inefficient delay loading"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Use variables, collections, and navigation context to share state across screens instead."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],

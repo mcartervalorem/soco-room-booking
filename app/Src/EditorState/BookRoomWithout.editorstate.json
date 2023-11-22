@@ -185,7 +185,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_Navigation_3",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -231,7 +231,7 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -632,7 +632,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container8_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

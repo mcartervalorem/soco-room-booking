@@ -140,3 +140,11 @@
                     Width: =Parent.Width/5
                     ZIndex: =5
 
+            cmp_Navigation_4 As cmp_Navigation:
+                FocusedNav: =3
+                Items: =colNavItems
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+                Visible: =BookRoomWithout.Size <> 1
+                ZIndex: =2
+
