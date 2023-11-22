@@ -1,41 +1,6 @@
 Screen1 As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Dropdown1 As dropdown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        Items: |+
-            =ForAll(
-                Sequence(96,0,0.25),
-                Text(RoundDown(Value,0),"00")&":"&Text(Mod(Value*60,60),"00")
-            )
-            
-        PaddingBottom: =5
-        PaddingLeft: =12
-        PaddingRight: =5
-        PaddingTop: =5
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        Size: =13
-        X: =40
-        Y: =40
-        ZIndex: =1
-
     Dropdown2 As dropdown:
         BorderColor: =RGBA(166, 166, 166, 1)
         ChevronBackground: =RGBA(255, 255, 255, 1)
@@ -52,7 +17,7 @@ Screen1 As screen:
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
-        Items: =col_Timing
+        Items: =colTiming
         PaddingBottom: =5
         PaddingLeft: =12
         PaddingRight: =5
@@ -79,8 +44,14 @@ Screen1 As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         OnSelect: |-
-            =Clear(col_Timing);
-            ForAll(Sequence(12,0),Collect(col_Timing,{Id:GUID(),Time:TimeValue("06:00")+TimeValue(""&ThisRecord.Value&":00")}))
+            =Clear(colTiming);
+            ForAll(Sequence(14,0),
+            Collect(colTiming,{Time:TimeValue("06:00")+TimeValue(""&ThisRecord.Value&":00")});
+            Collect(colTiming,{Time:TimeValue("06:00")+TimeValue(""&ThisRecord.Value&":15")});
+            Collect(colTiming,{Time:TimeValue("06:00")+TimeValue(""&ThisRecord.Value&":30")});
+            Collect(colTiming,{Time:TimeValue("06:00")+TimeValue(""&ThisRecord.Value&":45")});
+            );
+            Collect(colTiming,{Time:TimeValue("06:00")+TimeValue(""&14&":00")})
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
