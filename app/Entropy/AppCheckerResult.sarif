@@ -404,66 +404,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_1.MainContainer1_1.TextInputCanvas2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "AdminPanel.ScreenContainer1_1.MainContainer1_1.cmp_Navigation_AdminPanel.Visible"
                 }
               ],

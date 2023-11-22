@@ -67,7 +67,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2_1 As groupContainer.horizontalAutoLayoutContainer:
+            Container_AdminPanelColorBanner As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -190,25 +190,4 @@
                     Text: ="Home"
                     Width: =75
                     ZIndex: =2
-
-            "TextInputCanvas2 As 'Text input'":
-                DisplayMode: =DisplayMode.Edit
-                Height: =32
-                LayoutMinHeight: =32
-                LayoutMinWidth: =320
-                Width: =320
-                X: =0
-                Y: =0
-                ZIndex: =4
-
-            "TextInputCanvas2_1 As 'Text input'":
-                BasePaletteColor: =
-                DisplayMode: =DisplayMode.Edit
-                Height: =32
-                LayoutMinHeight: =32
-                LayoutMinWidth: =320
-                Width: =320
-                X: =0
-                Y: =0
-                ZIndex: =5
 
