@@ -153,6 +153,7 @@
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =38
+                    HintText: ="Enter Username"
                     HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
@@ -180,6 +181,7 @@
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     Height: =38
+                    HintText: ="Enter Password"
                     HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
@@ -261,24 +263,7 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                    OnSelect: |-
-                        =If(PasswordField.Text = "1234",
-                        Reset(PasswordField);
-                        UpdateContext({AdminPanel});
-                        Navigate(AdminSettings,Cover),
-                        
-                        UpdateContext
-                        ({
-                            MessageText: "Incorrect username and/or Password",
-                            BadPasswordCount: Sum(Value(BadPasswordCount),1)
-                        });
-                        Reset(PasswordField)
-                        );
-                        
-                        If(BadPasswordCount = 3,
-                        UpdateContext({AdminPanel});
-                        Navigate(Jail,ScreenTransition.Fade)
-                        )
+                    OnSelect: =If(!IsBlank(LookUp('SoCo Admin',Title=UsernameField.Text && Password=PasswordField.Text)),Navigate(Home),Navigate(AdminPanelError))
                     PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -310,23 +295,4 @@
                     X: =485
                     Y: =234
                     ZIndex: =7
-
-                Label4 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(184, 0, 0, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =55
-                    Size: =13
-                    Text: ="Incorrect username and/or password"
-                    Width: =479
-                    X: =41
-                    Y: =449
-                    ZIndex: =8
 

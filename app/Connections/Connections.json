@@ -32,5 +32,27 @@
     "dependencies": {},
     "dependents": [],
     "id": "1894d700-77c5-4b24-93be-4e50e2c332d6"
+  },
+  "f85875a1-ac0a-49e3-89bb-fd5570c79efd": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://aptitude4dev.sharepoint.com/sites/Comms/": {
+        "dataSources": {
+          "SoCo Admin": {
+            "tableName": "84af13a4-654f-4049-bc32-d2fa310e0ec8"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "SoCo Admin"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f85875a1-ac0a-49e3-89bb-fd5570c79efd"
   }
 }
