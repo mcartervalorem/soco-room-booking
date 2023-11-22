@@ -1,7 +1,10 @@
 "AdminPanel As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnHidden: |-
+        =UpdateContext({ctxIsLoggedIn: false}); UpdateContext({ctxShowError: false}); Reset(txt_Login); Reset(txt_Password);
     OnVisible: |-
-        =UpdateContext({ctxPassword: LookUp(Variables, Title = "Password", Text)}); UpdateContext({ctxIsLoggedIn: false});
+        =UpdateContext({ctxPassword: LookUp(Variables, Title = "Password", Text)});
+        ClearCollect(colAdmins, LookUp(Variables, Title = "Admins", People));
 
     ScreenContainer1_5 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -146,6 +149,29 @@
 
             cmp_Navigation_4 As cmp_Navigation:
                 FocusedNav: =3
+                Items: |-
+                    =Table(
+                        {
+                            Text: "Book a Room with a Meeting",
+                            Screen: BookRoomWith,
+                            Index: 0
+                        },
+                        {
+                            Text: "Book a Room without a Meeting",
+                            Screen: BookRoomWithout,
+                            Index: 1
+                        },
+                        {
+                            Text: "My Bookings",
+                            Screen: App.ActiveScreen,
+                            Index: 2
+                        },
+                        {
+                            Text: "Admin Panel",
+                            Screen: AdminPanel,
+                            Index: 3
+                        }
+                    )
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
                 Visible: =AdminPanel.Size <> 1
@@ -197,10 +223,8 @@
                     ZIndex: =2
 
             ctr_Login As groupContainer.horizontalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderStyle: =BorderStyle.None
                 LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -210,6 +234,7 @@
                 ctr_LoginLeft As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderStyle: =BorderStyle.None
+                    FillPortions: =2
                     LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
@@ -311,6 +336,23 @@
                         Size: =13
                         ZIndex: =5
 
+                    Label4 As label:
+                        AlignInContainer: =AlignInContainer.Stretch
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =gblColors.Red
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Italic: =true
+                        Size: =12
+                        Text: ="Invalid login and/or password. Please try again."
+                        Visible: =ctxShowError
+                        ZIndex: =6
+
                     ctr_LoginButton As groupContainer.verticalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer
                         BorderStyle: =BorderStyle.None
@@ -335,8 +377,18 @@
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
                             HoverColor: =RGBA(255, 255, 255, 1)
                             HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                            OnSelect: |-
-                                =UpdateContext({ctxIsLoggedIn: true});
+                            OnSelect: |
+                                =If(
+                                    And(
+                                        txt_Login.Text in colAdmins.Email,
+                                        txt_Password.Text = ctxPassword
+                                    ),
+                                    UpdateContext({ctxIsLoggedIn: true});
+                                    UpdateContext({ctxShowError: false});
+                                    Reset(txt_Login);
+                                    Reset(txt_Password), // Add to log: Person logging in and time/date
+                                    UpdateContext({ctxShowError: true});
+                                );
                             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                             PressedColor: =RGBA(255, 255, 255, 1)
                             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -344,14 +396,14 @@
                             RadiusBottomRight: =0
                             RadiusTopLeft: =0
                             RadiusTopRight: =0
-                            Text: ="Login"
+                            Text: =If(ctxShowError, "Retry", "Login")
                             Width: =125
                             ZIndex: =1
 
                 ctr_LoginRight As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderStyle: =BorderStyle.None
-                    FillPortions: =0
+                    FillPortions: =3
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
@@ -361,11 +413,12 @@
                     ZIndex: =2
 
             ctr_AdminPanel As groupContainer.horizontalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
+                LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
                 RadiusBottomLeft: =4
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
@@ -375,7 +428,7 @@
 
                 ctr_AdminPanel_Left As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    DropShadow: =DropShadow.Light
+                    BorderStyle: =BorderStyle.None
                     LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
@@ -383,10 +436,6 @@
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =30
                     PaddingRight: =30
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     ZIndex: =1
 
                     lbl_IsTablet As label:
@@ -404,6 +453,7 @@
                         ZIndex: =1
 
                     tgl_IsTablet As toggleSwitch:
+                        AlignInContainer: =AlignInContainer.Start
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         Color: =RGBA(51, 51, 51, 1)
@@ -464,14 +514,10 @@
 
                 ctr_Adminpanel_Right As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    DropShadow: =DropShadow.Light
+                    BorderStyle: =BorderStyle.None
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     ZIndex: =2
 
