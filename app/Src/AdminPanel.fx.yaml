@@ -261,7 +261,24 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                    OnSelect: =If(PasswordField.Text
+                    OnSelect: |-
+                        =If(PasswordField.Text = "1234",
+                        Reset(PasswordField);
+                        UpdateContext({AdminPanel});
+                        Navigate(AdminSettings,Cover),
+                        
+                        UpdateContext
+                        ({
+                            MessageText: "Incorrect username and/or Password",
+                            BadPasswordCount: Sum(Value(BadPasswordCount),1)
+                        });
+                        Reset(PasswordField)
+                        );
+                        
+                        If(BadPasswordCount = 3,
+                        UpdateContext({AdminPanel});
+                        Navigate(Jail,ScreenTransition.Fade)
+                        )
                     PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
