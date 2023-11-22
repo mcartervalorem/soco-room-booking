@@ -296,22 +296,3 @@
                     Y: =234
                     ZIndex: =7
 
-                Label4 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    Color: =RGBA(184, 0, 0, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =55
-                    Size: =13
-                    Text: ="Incorrect username and/or password"
-                    Width: =479
-                    X: =41
-                    Y: =449
-                    ZIndex: =8
-
