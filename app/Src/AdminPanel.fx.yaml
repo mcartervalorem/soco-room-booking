@@ -142,7 +142,7 @@
                 RadiusTopRight: =4
                 ZIndex: =4
 
-                TextInput1 As text:
+                UsernameField As text:
                     BorderColor: =RGBA(166, 166, 166, 1)
                     BorderThickness: =2
                     Color: =RGBA(51, 51, 51, 1)
@@ -169,7 +169,7 @@
                     Y: =128
                     ZIndex: =1
 
-                TextInput2 As text:
+                PasswordField As text:
                     BorderColor: =RGBA(166, 166, 166, 1)
                     BorderThickness: =2
                     Color: =RGBA(51, 51, 51, 1)
@@ -226,7 +226,7 @@
                     Font: =Font.'Segoe UI'
                     FontWeight: =FontWeight.Semibold
                     Size: =13
-                    Text: ="Login"
+                    Text: ="Username"
                     X: =40
                     Y: =88
                     ZIndex: =4
@@ -261,7 +261,7 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                    OnSelect: =
+                    OnSelect: =If(PasswordField.Text
                     PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
