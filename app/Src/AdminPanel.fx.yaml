@@ -1,7 +1,7 @@
 "AdminPanel As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainerAdminPanel As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
@@ -15,7 +15,8 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainerAdminPanel As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
@@ -27,39 +28,8 @@
             PaddingLeft: =40
             ZIndex: =2
 
-            Image2_1 As image:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledFill: =RGBA(0, 0, 0, 0)
-                FocusedBorderThickness: =4
-                Height: =36
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                Image: =Logo
-                PressedBorderColor: =RGBA(0, 0, 0, 0)
-                PressedFill: =RGBA(0, 0, 0, 0)
-                Width: =250
-                ZIndex: =1
-
-            Label1_1 As label:
-                AlignInContainer: =AlignInContainer.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Height: =36
-                PaddingBottom: =0
-                Size: =18
-                Text: ="Room Booking App"
-                Width: =350
-                ZIndex: =2
-
-        MainContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+        MainContainerAdminPanel As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
@@ -67,7 +37,8 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2_1 As groupContainer.horizontalAutoLayoutContainer:
+            Container_AdminPanelColorBanner As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -75,68 +46,169 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                Rectangle2_1 As rectangle:
+            cmp_Navigation_AdminPanel As cmp_Navigation:
+                FocusedNav: =3
+                Items: =colNavItems
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+                Visible: =BookRoomWithout.Size <> 1
+                ZIndex: =2
+
+            Container_AdminPanelBackHome As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderStyle: =BorderStyle.None
+                FillPortions: =0
+                Height: =35
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Visible: =BookRoomWithout.Size = 1
+                ZIndex: =3
+
+                Image3_2 As image:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Red
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
+                    Height: =35
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =LeftArrow
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =35
                     ZIndex: =1
 
-                Rectangle3_1 As rectangle:
+                Label3_2 As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Blue
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =35
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
+                    Text: ="Home"
+                    Width: =75
                     ZIndex: =2
 
-                Rectangle4_1 As rectangle:
+            Container_AdminPanelLogIn As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                TextInput1 As text:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =""
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    Height: =38
+                    HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(0, 120, 212, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =13
+                    Width: =480
+                    X: =40
+                    Y: =128
+                    ZIndex: =1
+
+                TextInput2 As text:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =""
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    Height: =38
+                    HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    PressedBorderColor: =RGBA(0, 120, 212, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =13
+                    Width: =480
+                    X: =40
+                    Y: =234
+                    ZIndex: =2
+
+                Label2 As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.LightBlue
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    Size: =16
+                    Text: ="Log In Here to Access the Admin Panel"
+                    Width: =603
+                    X: =40
+                    Y: =15
                     ZIndex: =3
 
-                Rectangle5_1 As rectangle:
+                Label2_1 As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.LightGreen
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Size: =13
+                    Text: ="Login"
+                    X: =40
+                    Y: =88
                     ZIndex: =4
 
-                Rectangle6_1 As rectangle:
+                Label2_2 As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Yellow
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Size: =13
+                    Text: ="Password"
+                    X: =40
+                    Y: =194
                     ZIndex: =5
 
