@@ -149,7 +149,7 @@
                 Visible: =BookRoomWith.Size <> 1
                 ZIndex: =2
 
-            Container8 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_BackHome_Mobile As groupContainer.horizontalAutoLayoutContainer:
                 BorderStyle: =BorderStyle.None
                 FillPortions: =0
                 Height: =35

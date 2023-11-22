@@ -1,1 +1,36 @@
-{}
+{
+  "1894d700-77c5-4b24-93be-4e50e2c332d6": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://aptitude4dev.sharepoint.com/sites/RoomBooking": {
+        "dataSources": {
+          "Bookings": {
+            "tableName": "e43da4fa-d260-4e11-86b6-b1b3963c77c6"
+          },
+          "PlacePhotos": {
+            "tableName": "b408fbd1-6f4a-42b3-b529-997e9dcda3b8"
+          },
+          "Places": {
+            "tableName": "72f48d27-00ae-4c7e-9ee9-b5cb5b4260ed"
+          },
+          "Variables": {
+            "tableName": "5fa81c75-365b-4e56-9073-a8892832f95f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Variables",
+      "Bookings",
+      "PlacePhotos",
+      "Places"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1894d700-77c5-4b24-93be-4e50e2c332d6"
+  }
+}

@@ -156,7 +156,7 @@
         "Name": "Button3",
         "Parent": "cmp_HomeButton",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 89,
+        "PublishOrderIndex": 7,
         "Rules": [
           {
             "Category": "Data",
@@ -512,7 +512,7 @@
             "Name": "img_HomeButton",
             "Parent": "Container6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 91,
+            "PublishOrderIndex": 9,
             "Rules": [
               {
                 "Category": "Data",
@@ -859,7 +859,7 @@
             "Name": "lbl_HomeButton",
             "Parent": "Container6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 92,
+            "PublishOrderIndex": 10,
             "Rules": [
               {
                 "Category": "Data",
@@ -1281,7 +1281,7 @@
         "Name": "Container6",
         "Parent": "cmp_HomeButton",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 90,
+        "PublishOrderIndex": 8,
         "Rules": [
           {
             "Category": "Design",
@@ -1510,7 +1510,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638362717850364195",
+    "LastModifiedTimestamp": "638362786170430891",
     "Name": "cmp_HomeButton",
     "Rules": [
       {
@@ -1630,7 +1630,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638362717850364195",
+  "LastModifiedTimestamp": "638362786170430891",
   "Name": "18e1011f6ac84211b3efb9fcb979ce45",
   "OverridableProperties": {},
   "Version": "1.0"
