@@ -263,7 +263,7 @@
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                    OnSelect: =If(!IsBlank(LookUp(user_logins,Title=username_txt.Text&&password=password_txt.Text)),Navigate(Home),Navigate(AdminPanelError))
+                    OnSelect: =If(!IsBlank(LookUp('SoCo Admin',Title=UsernameField.Text && Password=PasswordField.Text)),Navigate(Home),Navigate(AdminPanelError))
                     PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

@@ -14,402 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": "user_logins"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "user_logins"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 71,
-                  "charOffset": 12,
-                  "snippet": {
-                    "text": "LookUp(user_logins,Title=username_txt.Text&&password=password_txt.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 31,
-                  "snippet": {
-                    "text": "Title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Title"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 37,
-                  "snippet": {
-                    "text": "username_txt"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "username_txt"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 49,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 36,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 56,
-                  "snippet": {
-                    "text": "password"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "password"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 65,
-                  "snippet": {
-                    "text": "password_txt"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "password_txt"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 77,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 64,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_0.TabIndex"
                 }
               ],
@@ -433,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -463,7 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -493,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -523,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -553,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -583,7 +187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -613,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -643,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -673,7 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -703,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -733,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -763,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -793,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -823,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -853,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -882,7 +486,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -912,7 +516,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -942,7 +546,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -972,7 +576,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1002,7 +606,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1032,7 +636,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1062,7 +666,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -1070,69 +674,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
-                  "If you’re comparing records or tables, the field or column types must match exactly."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
