@@ -134,96 +134,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelBackHome.Image3_2.AccessibleLabel"
                 }
               ],
@@ -308,6 +218,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -404,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput1"
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
               }
             }
           ],
@@ -434,19 +404,138 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2.AccessibleLabel"
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2.AccessibleLabel",
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1",
+                "type": "Screen1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Dropdown1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainerAdminPanel.MainContainerAdminPanel.Container_AdminPanelLogIn.TextInput2"
+                "module": "Screen1",
+                "type": "Screen1.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Dropdown2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Dropdown2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.Dropdown2"
               }
             }
           ],
@@ -487,7 +576,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -517,7 +606,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 2
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -557,6 +646,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-ReadableScreenNameNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Revise screen name"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {

@@ -212,3 +212,31 @@
                     Y: =194
                     ZIndex: =5
 
+                Button2 As button:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: |-
+                        =ColorValue("#00BCF1")
+                    FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =38
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+                    PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =15
+                    Text: ="Log In"
+                    VerticalAlign: =VerticalAlign.Top
+                    X: =360
+                    Y: =327
+                    ZIndex: =6
+
