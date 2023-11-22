@@ -156,7 +156,7 @@
         "Name": "Button3_1",
         "Parent": "cmp_AdminButton",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 88,
+        "PublishOrderIndex": 89,
         "Rules": [
           {
             "Category": "Data",
@@ -542,7 +542,7 @@
             "Name": "lbl_HomeButton_1",
             "Parent": "Container6_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 90,
+            "PublishOrderIndex": 91,
             "Rules": [
               {
                 "Category": "Data",
@@ -913,7 +913,7 @@
             "Name": "img_HomeButton_1",
             "Parent": "Container6_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 91,
+            "PublishOrderIndex": 92,
             "Rules": [
               {
                 "Category": "Data",
@@ -1281,7 +1281,7 @@
         "Name": "Container6_1",
         "Parent": "cmp_AdminButton",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 89,
+        "PublishOrderIndex": 90,
         "Rules": [
           {
             "Category": "Design",
