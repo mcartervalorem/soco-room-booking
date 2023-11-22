@@ -243,7 +243,7 @@
                         ScreenSize: =Home.Size
                         Width: =If(Home.Size <> 1, cmp_HomeButton_1.Width * 3 + 60, cmp_HomeButton_1.Width)
 
-    Label1_3 As label:
+    lbl_AppName_Mobile As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
