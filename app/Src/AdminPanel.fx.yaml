@@ -149,29 +149,7 @@
 
             cmp_Navigation_4 As cmp_Navigation:
                 FocusedNav: =3
-                Items: |-
-                    =Table(
-                        {
-                            Text: "Book a Room with a Meeting",
-                            Screen: BookRoomWith,
-                            Index: 0
-                        },
-                        {
-                            Text: "Book a Room without a Meeting",
-                            Screen: BookRoomWithout,
-                            Index: 1
-                        },
-                        {
-                            Text: "My Bookings",
-                            Screen: App.ActiveScreen,
-                            Index: 2
-                        },
-                        {
-                            Text: "Admin Panel",
-                            Screen: AdminPanel,
-                            Index: 3
-                        }
-                    )
+                Items: =colNavItems
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
                 Visible: =AdminPanel.Size <> 1

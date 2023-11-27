@@ -221,6 +221,7 @@
                         Image: =Building
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640
+                        NavScreen: ='My Bookings Screen'
                         ScreenSize: =Home.Size
                         Text: ="My Bookings"
                         Width: =If(cmp_HomeButton_3.ScreenSize <> 1, 350, 350)

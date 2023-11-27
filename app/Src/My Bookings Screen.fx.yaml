@@ -1,7 +1,7 @@
-"BookRoomWithout As screen.'autoLayout_HeaderFooter_ver1.0'":
+"'My Bookings Screen' As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer1_4 As groupContainer.verticalAutoLayoutContainer:
+    conMainScreen_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
@@ -15,20 +15,21 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1_4 As groupContainer.horizontalAutoLayoutContainer:
+        conHeader_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutGap: =20
-            LayoutJustifyContent: =If(BookRoomWithout.Size <> 1, LayoutJustifyContent.Start, LayoutJustifyContent.Center)
+            LayoutJustifyContent: =If('My Bookings Screen'.Size <> 1, LayoutJustifyContent.Start, LayoutJustifyContent.Center)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            PaddingLeft: =If(BookRoomWithout.Size <> 1, 40)
+            PaddingLeft: =If('My Bookings Screen'.Size <> 1, 40)
             ZIndex: =2
 
-            Image2_4 As image:
+            Image2_5 As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -44,8 +45,7 @@
                 Width: =250
                 ZIndex: =1
 
-            Label1_5 As label:
-                AlignInContainer: =AlignInContainer.Center
+            Label1_6 As label:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -57,19 +57,22 @@
                 PaddingBottom: =0
                 Size: =18
                 Text: ="Room Booking App"
-                Visible: =BookRoomWithout.Size <> 1
+                Visible: ='My Bookings Screen'.Size <> 1
                 Width: =350
                 ZIndex: =2
 
-        MainContainer1_4 As groupContainer.verticalAutoLayoutContainer:
+        conMainInformatiom_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =If('My Bookings Screen'.Size <> 1, cmp_Navigation_MyBookingScreen.Y+cmp_Navigation_MyBookingScreen.Height, conMobileMenu_MyBookingScreen.Height+conMobileMenu_MyBookingScreen.Y)
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2_4 As groupContainer.horizontalAutoLayoutContainer:
+            conColorImage_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -77,90 +80,81 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                Rectangle2_4 As rectangle:
+                shp_RectangleRed_MyBookings As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =DisplayMode.View
                     Fill: =gblColors.Red
                     FocusedBorderThickness: =4
                     Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
                     Width: =Parent.Width/5
                     ZIndex: =1
 
-                Rectangle3_4 As rectangle:
+                shp_RectangleBlue_MyBookings As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =DisplayMode.View
                     Fill: =gblColors.Blue
                     FocusedBorderThickness: =4
                     Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
                     Width: =Parent.Width/5
                     ZIndex: =2
 
-                Rectangle4_4 As rectangle:
+                shp_RectangleLightBlue_MyBookings As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =DisplayMode.View
                     Fill: =gblColors.LightBlue
                     FocusedBorderThickness: =4
                     Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
                     Width: =Parent.Width/5
                     ZIndex: =3
 
-                Rectangle5_4 As rectangle:
+                shp_RectangleGreen_MyBookings As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =DisplayMode.View
                     Fill: =gblColors.LightGreen
                     FocusedBorderThickness: =4
                     Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
                     Width: =Parent.Width/5
                     ZIndex: =4
 
-                Rectangle6_4 As rectangle:
+                shp_RectangleYellow_MyBookings As rectangle:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    DisplayMode: =DisplayMode.View
                     Fill: =gblColors.Yellow
                     FocusedBorderThickness: =4
                     Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
                     Width: =Parent.Width/5
                     ZIndex: =5
 
-            cmp_Navigation_3 As cmp_Navigation:
-                FocusedNav: =1
+            cmp_Navigation_MyBookingScreen As cmp_Navigation:
+                FocusedNav: =2
                 Items: =colNavItems
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
-                Visible: =BookRoomWithout.Size <> 1
+                Visible: ='My Bookings Screen'.Size <> 1
                 ZIndex: =2
 
-            Container8_1 As groupContainer.horizontalAutoLayoutContainer:
+            conMobileMenu_MyBookingScreen As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderStyle: =BorderStyle.None
                 FillPortions: =0
                 Height: =35
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
-                Visible: =BookRoomWithout.Size = 1
+                Visible: ='My Bookings Screen'.Size = 1
                 ZIndex: =3
 
-                Image3_1 As image:
+                imgLeftArrowMobileMenu_MyBookingScreen As image:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
@@ -177,7 +171,7 @@
                     Width: =35
                     ZIndex: =1
 
-                Label3_1 As label:
+                lblHomeMobileMenu_MyBookingScreen As label:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2

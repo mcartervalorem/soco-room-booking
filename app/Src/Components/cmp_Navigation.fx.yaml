@@ -102,7 +102,7 @@ cmp_Navigation As CanvasComponent:
                 Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 2, FontWeight.Semibold, FontWeight.Normal)
                 Height: =35
-                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)
+                OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 2, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
                 Text: =LookUp(cmp_Navigation.Items, Index = 2, Text)
                 Width: =135
@@ -128,84 +128,80 @@ cmp_Navigation As CanvasComponent:
                 ZIndex: =4
 
     shp_Underline0 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderColor: =cmp_Navigation.FocusedColor
+        BorderThickness: =1.5
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =cmp_Navigation.FocusedColor
         FocusedBorderThickness: =4
-        Height: =3
+        Height: =1.5
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 0
         Width: =245
         X: =15
-        Y: =32
+        Y: =35
         ZIndex: =3
 
     shp_Underline1 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderColor: =cmp_Navigation.FocusedColor
+        BorderThickness: =1.5
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =cmp_Navigation.FocusedColor
         FocusedBorderThickness: =4
-        Height: =3
+        Height: =1.5
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 1
         Width: =275
         X: =280
-        Y: =32
+        Y: =35
         ZIndex: =4
 
     shp_Underline2 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderColor: =cmp_Navigation.FocusedColor
+        BorderThickness: =1.5
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =cmp_Navigation.FocusedColor
         FocusedBorderThickness: =4
-        Height: =3
+        Height: =1.5
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 2
         Width: =112
         X: =572
-        Y: =32
+        Y: =35
         ZIndex: =5
 
     shp_Underline3 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderColor: =cmp_Navigation.FocusedColor
+        BorderThickness: =1.5
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =cmp_Navigation.FocusedColor
         FocusedBorderThickness: =4
-        Height: =3
+        Height: =1.5
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 3
         Width: =105
         X: =710
-        Y: =32
+        Y: =35
         ZIndex: =6
 
     shp_Divider As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
+        BorderColor: |-
+            =ColorValue("#D5D5D5")
         BorderThickness: =2
         DisabledFill: |-
             =ColorValue("#F4F4F4")
         Fill: |-
-            =ColorValue("#F4F4F4")
+            =ColorValue("#D5D5D5")
         FocusedBorderThickness: =4
-        Height: =4
+        Height: =2
         HoverFill: |-
             =ColorValue("#F4F4F4")
         PressedFill: |-
             =ColorValue("#F4F4F4")
         Width: =Parent.Width
-        Y: =35
+        Y: =38
         ZIndex: =7
 

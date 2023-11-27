@@ -569,7 +569,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_Navigation_4",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -610,7 +610,7 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
@@ -742,7 +742,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_AdminPanel",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1766,7 +1766,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BackHome_Mobile_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2570,7 +2570,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_Login",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4852,7 +4852,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4",
-      "ParentIndex": 5,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5819,7 +5819,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Login",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6133,7 +6133,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_LogInMessage",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6440,7 +6440,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Password",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8344,7 +8344,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Login",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8645,7 +8645,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Password",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

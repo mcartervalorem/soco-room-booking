@@ -118,7 +118,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Table(\n    {\n        Text: \"Book a Room with a Meeting\",\n        Screen: App.ActiveScreen,\n        Index: 0\n    },\n    {\n        Text: \"Book a Room without a Meeting\",\n        Screen: App.ActiveScreen\n    },\n    {\n        Text: \"My Bookings\",\n        Screen: App.ActiveScreen\n    },\n    {\n        Text: \"Admin Panel\",\n        Screen: App.ActiveScreen\n    }\n)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Items",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -185,7 +185,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_Navigation_3",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -231,7 +231,7 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
@@ -632,7 +632,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container8_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
