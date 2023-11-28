@@ -14,6 +14,9 @@ App As appinfo:
                 Gray:ColorValue("#626262")  
             }
         );
+        Set(
+            gblFont, {Font: Font.'Open Sans'});
+        
         ClearCollect(colNavItems, Table(
             {
                 Text: "Book a Room with a Meeting",

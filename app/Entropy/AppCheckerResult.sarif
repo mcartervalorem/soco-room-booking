@@ -643,19 +643,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2.TabIndex"
+                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2.TabIndex",
+                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2"
+                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen"
               }
             }
           ],
@@ -673,19 +673,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.Gallery2"
+                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen"
               }
             }
           ],
@@ -697,6 +697,96 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "My Bookings Screen",
+                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "My Bookings Screen",
+                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "My Bookings Screen",
+                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
         },
         {
           "locations": [
