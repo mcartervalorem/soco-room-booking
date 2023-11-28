@@ -297,55 +297,11 @@
 
     conRoomFilterArea_MyBookingScreen As groupContainer.manualLayoutContainer:
         BorderColor: =gblColors.LightGray
-        BorderThickness: =1
-        Height: =44
+        Height: =If(locFilterRooms,270,44)
         Width: =300
         X: =conRoomFilterAreaBlank_MyBookingScreen.X+conFilterArea_MyBookingScreen.PaddingLeft
         Y: =conMainScreen_MyBookingScreen.Y+conFilterArea_MyBookingScreen.Y+conRoomFilterAreaBlank_MyBookingScreen.Y
         ZIndex: =3
-
-        conRoomGalleryArea_MyBookingScreen As groupContainer.verticalAutoLayoutContainer:
-            DropShadow: =DropShadow.Light
-            Height: =44
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
-            Width: =300
-            Y: =txtRoomTxtArea_MyBookingScreen.Height+txtRoomTxtArea_MyBookingScreen.Y*2
-            ZIndex: =1
-
-            "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-                BorderColor: =RGBA(166, 166, 166, 1)
-                DelayItemLoading: =true
-                Items: =[1,2,3]
-                Layout: =Layout.Vertical
-                LayoutMinHeight: =287
-                LayoutMinWidth: =320
-                LoadingSpinner: =LoadingSpinner.Data
-                TemplatePadding: =0
-                TemplateSize: =104
-                ZIndex: =1
-
-                Title1 As label:
-                    Color: =RGBA(50, 49, 48, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =Self.Size * 1.8
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =ThisItem.Value
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =Parent.TemplateWidth - 173
-                    X: =103
-                    Y: =
-                    ZIndex: =2
 
         txtRoomTxtArea_MyBookingScreen As text:
             BorderColor: =gblColors.LightGray
@@ -375,7 +331,7 @@
             Width: =250
             X: =10
             Y: =2
-            ZIndex: =2
+            ZIndex: =1
 
         icoRoomOpen_MyBookingScreen As icon.Alarm:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -396,7 +352,7 @@
             Width: =20
             X: =txtRoomTxtArea_MyBookingScreen.X+txtRoomTxtArea_MyBookingScreen.Width
             Y: =2
-            ZIndex: =3
+            ZIndex: =2
 
         htmlRoomTxtArea_MyBookingScreen As htmlViewer:
             AutoHeight: =true
@@ -407,5 +363,88 @@
             Width: =txtRoomTxtArea_MyBookingScreen.Width
             X: =10
             Y: =2
+            ZIndex: =3
+
+        Button2 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =Parent.Height
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =
+            OnSelect: |-
+                =UpdateContext({locFilterRooms:!locFilterRooms});
+            PressedBorderColor: =
+            PressedColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: ="Button"
+            Width: =Parent.Width
             ZIndex: =4
+
+        conRoomGalleryArea_MyBookingScreen As groupContainer.verticalAutoLayoutContainer:
+            BorderColor: =gblColors.LightGray
+            BorderThickness: =1
+            Height: =conRoomFilterArea_MyBookingScreen.Height-Self.Y-10
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            Visible: =locFilterRooms
+            Width: =300
+            Y: =txtRoomTxtArea_MyBookingScreen.Height+txtRoomTxtArea_MyBookingScreen.Y*2
+            ZIndex: =5
+
+            "Gallery2 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderColor: =RGBA(166, 166, 166, 1)
+                DelayItemLoading: =true
+                FillPortions: =0
+                Height: =50
+                Items: =[1]
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =4
+                TemplateSize: =Min(870, Self.Height - 60)
+                Width: =Parent.Width
+                ZIndex: =2
+
+                Body1 As label:
+                    AutoHeight: =true
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 4
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =12
+                    Text: =ThisItem.Value
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 32
+                    X: =16
+                    Y: =
+                    ZIndex: =4
+
+        ComboboxCanvas2 As Combobox.pcfdataset:
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Items: =[1,2,3]
+            Width: =300
+            X: =0
+            Y: =40
+            ZIndex: =6
 
