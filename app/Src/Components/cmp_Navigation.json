@@ -46,7 +46,14 @@
                   "DisabledFill",
                   "PressedFill",
                   "HoverFill",
-                  "Font",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "Font.'Segoe UI'",
+                    "InvariantPropertyName": "Font",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -268,7 +275,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "Font.'Segoe UI'",
+                    "InvariantScript": "Font.'Open Sans'",
                     "Property": "Font",
                     "RuleProviderType": "Unknown"
                   },
@@ -475,7 +482,14 @@
                   "DisabledFill",
                   "PressedFill",
                   "HoverFill",
-                  "Font",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "Font.'Segoe UI'",
+                    "InvariantPropertyName": "Font",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -697,7 +711,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "Font.'Segoe UI'",
+                    "InvariantScript": "Font.'Open Sans'",
                     "Property": "Font",
                     "RuleProviderType": "Unknown"
                   },
@@ -799,7 +813,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "285",
+                    "InvariantScript": "290",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
@@ -904,7 +918,14 @@
                   "DisabledFill",
                   "PressedFill",
                   "HoverFill",
-                  "Font",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "Font.'Segoe UI'",
+                    "InvariantPropertyName": "Font",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -1126,7 +1147,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "Font.'Segoe UI'",
+                    "InvariantScript": "Font.'Open Sans'",
                     "Property": "Font",
                     "RuleProviderType": "Unknown"
                   },
@@ -1333,7 +1354,14 @@
                   "DisabledFill",
                   "PressedFill",
                   "HoverFill",
-                  "Font",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "Font.'Segoe UI'",
+                    "InvariantPropertyName": "Font",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -1555,7 +1583,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "Font.'Segoe UI'",
+                    "InvariantScript": "Font.'Open Sans'",
                     "Property": "Font",
                     "RuleProviderType": "Unknown"
                   },
@@ -3415,7 +3443,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638367702504523538",
+    "LastModifiedTimestamp": "638367871028845828",
     "Name": "cmp_Navigation",
     "Rules": [
       {
@@ -3535,7 +3563,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638367702504523538",
+  "LastModifiedTimestamp": "638367871028845828",
   "Name": "39828aeba63b4331b468125c8119579f",
   "OverridableProperties": {},
   "Version": "1.0"

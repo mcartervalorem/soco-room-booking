@@ -61,7 +61,6 @@ cmp_Navigation As CanvasComponent:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 0, FontWeight.Semibold, FontWeight.Normal)
                 Height: =35
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 0, Screen), ScreenTransition.CoverRight)
@@ -80,13 +79,12 @@ cmp_Navigation As CanvasComponent:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 1, FontWeight.Semibold, FontWeight.Normal)
                 Height: =35
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 1, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
                 Text: =LookUp(cmp_Navigation.Items, Index = 1, Text)
-                Width: =285
+                Width: =290
                 ZIndex: =2
 
             lbl_2 As label:
@@ -99,7 +97,6 @@ cmp_Navigation As CanvasComponent:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 2, FontWeight.Semibold, FontWeight.Normal)
                 Height: =35
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 2, Screen), ScreenTransition.CoverRight)
@@ -118,7 +115,6 @@ cmp_Navigation As CanvasComponent:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
                 FontWeight: =If(cmp_Navigation.FocusedNav = 3, FontWeight.Semibold, FontWeight.Normal)
                 Height: =35
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 3, Screen), ScreenTransition.CoverRight)

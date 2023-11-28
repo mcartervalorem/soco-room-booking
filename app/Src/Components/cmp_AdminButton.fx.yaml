@@ -65,7 +65,6 @@ cmp_AdminButton As CanvasComponent:
         DisabledFill: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =Parent.Height
         HoverBorderColor: =RGBA(0, 0, 0, 0)
