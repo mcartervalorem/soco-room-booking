@@ -1,0 +1,563 @@
+"CalendarWeek As screen.'autoLayout_HeaderFooter_ver1.0'":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: |+
+        =UpdateContext({ctxSelectedDate: Today()});
+        
+        // Current Week
+        UpdateContext({ctxCurrentWeek:RoundDown((10 + (DateDiff(Date(Year(Today()), 1, 1), Today(), TimeUnit.Days)+1) - (Weekday(Today())-1)) / 7, 0) + 1});
+        
+        // Next 26 weeks
+        Clear(colNext26Weeks);
+        ForAll(
+            Sequence(26,0), 
+            With({weekNumber: If(ctxCurrentWeek + Value > 52, ctxCurrentWeek + Value - 52, ctxCurrentWeek + Value)},
+            Collect(colNext26Weeks, {
+                number: weekNumber,
+                text: Concatenate(Text(DateAdd(Date(gblYear, 1, 1), 7*(weekNumber-2)), "mmm. dd yyyy"),
+                " - ", Text(DateAdd(Date(gblYear, 1, 1), 7*(weekNumber-2) +6), "mmm. dd yyyy"))
+            }))
+        );
+        
+        // All days of current week 
+        Clear(colDaysOfWeek);
+        ForAll(Sequence(7,(7-Weekday(DateValue(Concatenate(Text(gblYear),".1.1"))-1))+(ctxCurrentWeek-1)*7-7,1) As D,Collect(colDaysOfWeek, DateAdd(DateValue(Concatenate(Text(gblYear),".1.1")), D.Value)));
+        
+        
+        
+        
+
+    ScreenContainer1_6 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1_5 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =If(CalendarWeek.Size = 1, 115, 75) 
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =70
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            ctr_BackHome_Mobile_2 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderStyle: =BorderStyle.None
+                FillPortions: =0
+                Height: =35
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingLeft: =10
+                ZIndex: =1
+
+                img_BackHome_1 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =35
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =LeftArrow
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =20
+                    ZIndex: =1
+
+                lbl_BackHome_1 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =35
+                    OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
+                    Size: =12
+                    Text: ="Home"
+                    Width: =75
+                    ZIndex: =2
+
+            Container9 As groupContainer.horizontalAutoLayoutContainer:
+                BorderStyle: =BorderStyle.None
+                FillPortions: =0
+                Height: =If(CalendarWeek.Size = 1, 80, 40) 
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =If(CalendarWeek.Size = 1, 70, 35)
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                ZIndex: =2
+
+                Label2 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Size: =12
+                    Text: ="Week"
+                    Width: =100
+                    ZIndex: =1
+
+                Label3 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Size: =12
+                    Text: ="Month"
+                    Width: =100
+                    ZIndex: =2
+
+                Icon1 As icon.ChevronLeft:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Color: =RGBA(13, 50, 61, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =20
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.ChevronLeft
+                    OnSelect: |-
+                        =UpdateContext({ctxCurrentWeek:ctxCurrentWeek-1});
+                        Clear(colDaysOfWeek);
+                        ForAll(Sequence(7,(7-Weekday(DateValue(Concatenate(Text(gblYear),".1.1"))-1))+(ctxCurrentWeek-1)*7-7,1) As D,Collect(colDaysOfWeek, DateAdd(DateValue(Concatenate(Text(gblYear),".1.1")), D.Value)))
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =50
+                    ZIndex: =3
+
+                Icon2 As icon.ChevronRight:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Color: =RGBA(13, 50, 61, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =20
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.ChevronRight
+                    OnSelect: |-
+                        =UpdateContext({ctxCurrentWeek:ctxCurrentWeek+1});
+                        Clear(colDaysOfWeek);
+                        ForAll(Sequence(7,(7-Weekday(DateValue(Concatenate(Text(gblYear),".1.1"))-1))+(ctxCurrentWeek-1)*7-7,1) As D,Collect(colDaysOfWeek, DateAdd(DateValue(Concatenate(Text(gblYear),".1.1")), D.Value)))
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =50
+                    ZIndex: =4
+
+                Dropdown1 As dropdown:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderStyle: =BorderStyle.None
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                    ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                    ChevronFill: =RGBA(33, 33, 33, 1)
+                    ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                    ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =LookUp(colNext26Weeks, number = ctxCurrentWeek).text
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(212, 212, 212, 1)
+                    Items: =colNext26Weeks
+                    OnChange: |-
+                        =UpdateContext({ctxCurrentWeek: Dropdown1.Selected.number});
+                        Clear(colDaysOfWeek);
+                        ForAll(Sequence(7,(7-Weekday(DateValue(Concatenate(Text(gblYear),".1.1"))-1))+(ctxCurrentWeek-1)*7-7,1) As D,Collect(colDaysOfWeek, DateAdd(DateValue(Concatenate(Text(gblYear),".1.1")), D.Value)));
+                    OnSelect: =
+                    PaddingBottom: =5
+                    PaddingLeft: =12
+                    PaddingRight: =5
+                    PaddingTop: =5
+                    PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    SelectionFill: =RGBA(0, 120, 212, 1)
+                    Size: =12
+                    Width: =265
+                    ZIndex: =5
+
+        MainContainer1_5 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Container2_5 As groupContainer.horizontalAutoLayoutContainer:
+                FillPortions: =0
+                Height: =10
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                Rectangle2_6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Red
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =1
+
+                Rectangle3_6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Blue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =2
+
+                Rectangle4_6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightBlue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =3
+
+                Rectangle5_6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightGreen
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =4
+
+                Rectangle6_6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Yellow
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =5
+
+            Container10 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+
+                Container11 As groupContainer.verticalAutoLayoutContainer:
+                    BorderStyle: =BorderStyle.None
+                    FillPortions: =3
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =1
+
+                    ctr_Monday As groupContainer.verticalAutoLayoutContainer:
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =1
+                        DropShadow: =DropShadow.Light
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =150
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =1
+
+                        lbl_Monday As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Upper("Mon")
+                            ZIndex: =1
+
+                        lbl_MondayNum As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Day(Last(FirstN(colDaysOfWeek,2)).Value)
+                            ZIndex: =2
+
+                    ctr_Tuesday As groupContainer.verticalAutoLayoutContainer:
+                        BorderColor: =gblColors.LightBlue
+                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_TuesdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
+                        BorderThickness: =2
+                        DropShadow: =DropShadow.Light
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =150
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =2
+
+                        lbl_Tuesday As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            OnSelect: |-
+                                =UpdateContext({ctxSelectedDate: Last(FirstN(colDaysOfWeek,3)).Value})
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Upper("Tue")
+                            ZIndex: =1
+
+                        lbl_TuesdayNum As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            OnSelect: |-
+                                =UpdateContext({ctxSelectedDate: Last(FirstN(colDaysOfWeek,3)).Value})
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Day(Last(FirstN(colDaysOfWeek,3)).Value)
+                            ZIndex: =2
+
+                    Container15 As groupContainer.verticalAutoLayoutContainer:
+                        BorderStyle: =BorderStyle.None
+                        DropShadow: =DropShadow.Light
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =150
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =3
+
+                        Label6_2 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Upper("Wed")
+                            ZIndex: =1
+
+                        Label6_7 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Day(Last(FirstN(colDaysOfWeek,4)).Value)
+                            ZIndex: =2
+
+                    Container17 As groupContainer.verticalAutoLayoutContainer:
+                        BorderStyle: =BorderStyle.None
+                        DropShadow: =DropShadow.Light
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =150
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =4
+
+                        Label6_3 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Upper("thu")
+                            ZIndex: =1
+
+                        Label6_8 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Day(Last(FirstN(colDaysOfWeek,5)).Value)
+                            ZIndex: =2
+
+                    Container17_1 As groupContainer.verticalAutoLayoutContainer:
+                        BorderStyle: =BorderStyle.None
+                        DropShadow: =DropShadow.Light
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =150
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =5
+
+                        Label6_4 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Upper("Fri")
+                            ZIndex: =1
+
+                        Label6_9 As label:
+                            BorderColor: =RGBA(214, 221, 224, 1)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =1
+                            Color: =RGBA(51, 51, 51, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =30
+                            PaddingLeft: =10
+                            Size: =11
+                            Text: =Day(Last(FirstN(colDaysOfWeek,6)).Value)
+                            ZIndex: =2
+
+                Container12 As groupContainer.verticalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    LayoutAlignItems: =LayoutAlignItems.Stretch
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =2
+
+                    Label5 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =gblColors.LightBlue
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Size: =13
+                        Text: =Text(ctxSelectedDate, "dddd, mmmm d")
+                        ZIndex: =1
+
