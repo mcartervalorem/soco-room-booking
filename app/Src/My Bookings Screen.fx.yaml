@@ -14,7 +14,7 @@
 
         conFilterArea_MyBookingScreen As groupContainer.verticalAutoLayoutContainer:
             FillPortions: =0
-            LayoutGap: =10
+            LayoutGap: =11
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -365,43 +365,19 @@
             Y: =2
             ZIndex: =3
 
-        Button2 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =Parent.Height
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =
-            OnSelect: |-
-                =UpdateContext({locFilterRooms:!locFilterRooms});
-            PressedBorderColor: =
-            PressedColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Button"
-            Width: =Parent.Width
-            ZIndex: =4
-
         conRoomGalleryArea_MyBookingScreen As groupContainer.verticalAutoLayoutContainer:
             BorderColor: =gblColors.LightGray
             BorderThickness: =1
+            DropShadow: =DropShadow.Light
             Height: =conRoomFilterArea_MyBookingScreen.Height-Self.Y-10
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMode: =LayoutMode.Auto
             Visible: =locFilterRooms
-            Width: =300
-            Y: =txtRoomTxtArea_MyBookingScreen.Height+txtRoomTxtArea_MyBookingScreen.Y*2
-            ZIndex: =5
+            Width: |
+                =296
+            X: =3
+            Y: =txtRoomTxtArea_MyBookingScreen.Height+txtRoomTxtArea_MyBookingScreen.Y*2+1
+            ZIndex: =4
 
             "Gallery2 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
                 AlignInContainer: =AlignInContainer.SetByContainer
@@ -439,12 +415,32 @@
                     Y: =
                     ZIndex: =4
 
-        ComboboxCanvas2 As Combobox.pcfdataset:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Items: =[1,2,3]
-            Width: =300
-            X: =0
-            Y: =40
+        Button2 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =44
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =
+            OnSelect: |-
+                =UpdateContext({locFilterRooms:!locFilterRooms});
+            PressedBorderColor: =
+            PressedColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: =""
+            Width: |
+                =296
+            X: =3
             ZIndex: =6
 
