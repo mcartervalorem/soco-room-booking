@@ -15,6 +15,7 @@ App As appinfo:
             }
         );
         Set(gblYear, Year(Today()));
+        
         Set(
             gblFont, {Font: Font.'Open Sans'});
             
