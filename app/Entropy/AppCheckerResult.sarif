@@ -14,2162 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_IsTablet"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.lbl_TabletRoom"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.Label4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_LogInMessage"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Login"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.lbl_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conHeader_MyBookingsScreen.Label1_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainHeader_MyBookingsScreen.conMainInformatiom_MyBookingsScreen.conMobileMenu_MyBookingScreen.lblHomeMobileMenu_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conFilterArea_MyBookingScreen.conSearchArea_MyBookingScreen.txtSearchInput_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_2.lblMeetingText_MyBookingScreen_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_1.lblMeetingText_MyBookingScreen_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen.lblMeetingText_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_3.lblMeetingText_MyBookingScreen_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conMainScreen_MyBookingScreen.conDataArea_MyBookingScreen.conMeeting_MyBookingScreen_4.lblMeetingText_MyBookingScreen_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.btnRoomOpen_MyBooking"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.txtRoomTxtArea_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conRoomFilterArea_MyBookingScreen.conRoomGalleryArea_MyBookingScreen.galRoom_MyBookingScreen.lblRoom_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.btnLocationOpen_MyBooking"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.txtLocationTxtArea_MyBookingScree"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conLocationFilterArea_MyBookingScreen.conLocationGalleryArea_MyBookingScreen.galLocation_MyBookingScreen.lblLocation_MyBookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Dropdown2.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Dropdown2.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "Screen1",
-                "type": "Screen1.Dropdown2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Dropdown2.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Dropdown2.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "Screen1",
-                "type": "Screen1.Dropdown2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Button1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Button1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "gblFont"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "Screen1",
-                "type": "Screen1.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblFont"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Button1.Font"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Button1.Font",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".Font"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Font",
-                "module": "Screen1",
-                "type": "Screen1.Button1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "cmp_Navigation.Container3.Container1.lbl_0.TabIndex"
                 }
               ],
@@ -2193,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2223,7 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2253,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2283,307 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AdminPanel",
-                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookRoomWithout",
-                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2613,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2643,7 +187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2673,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2703,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2733,7 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2763,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2793,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2823,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2853,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2883,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2913,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2943,7 +487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2973,7 +517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3003,7 +547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3033,7 +577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3063,7 +607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3093,7 +637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3123,7 +667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3153,7 +697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3183,7 +727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3212,7 +756,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3242,7 +786,307 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.img_BackHome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_BackHome_Mobile_1.lbl_BackHome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.tgl_IsTablet"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_AdminPanel.ctr_AdminPanel_Left.drp_TabletRoom"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Login"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AdminPanel",
+                "type": "AdminPanel.ScreenContainer1_5.ctr_AdminPanel_Main.ctr_Login.ctr_LoginLeft.txt_Password"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Image3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookRoomWithout",
+                "type": "BookRoomWithout.ScreenContainer1_4.MainContainer1_4.Container8_1.Label3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3272,7 +1116,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -3280,37 +1124,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {

@@ -171,7 +171,7 @@
                     PaddingTop: =1
                     Size: =13
                     Text: ="MEETING"
-                    Width: =90
+                    Width: =82
                     ZIndex: =1
 
                 imgMeetingSort_MyBookingScreen As image:
@@ -181,18 +181,19 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =13.5
+                    Height: =12
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =Sort
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =20
-                    X: =lblMeetingText_MyBookingScreen.X+lblMeetingText_MyBookingScreen.Width
+                    X: |
+                        =lblMeetingText_MyBookingScreen.X+lblMeetingText_MyBookingScreen.Width+5
                     Y: =5
                     ZIndex: =2
 
-            conMeeting_MyBookingScreen_1 As groupContainer.manualLayoutContainer:
+            conLocation_MyBookingScreen As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 Height: =Parent.Height
                 LayoutMinHeight: =100
@@ -216,11 +217,12 @@
                     FontWeight: =FontWeight.Semibold
                     Height: =20
                     PaddingBottom: =0
+                    PaddingLeft: =10
                     PaddingRight: =0
                     PaddingTop: =1
                     Size: =13
-                    Text: ="MEETING"
-                    Width: =90
+                    Text: ="LOCATION"
+                    Width: =98
                     ZIndex: =1
 
                 imgMeetingSort_MyBookingScreen_1 As image:
@@ -230,18 +232,19 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =13.5
+                    Height: =12
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =Sort
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =20
-                    X: =lblMeetingText_MyBookingScreen_1.X+lblMeetingText_MyBookingScreen_1.Width
+                    X: |
+                        =lblMeetingText_MyBookingScreen_1.X+lblMeetingText_MyBookingScreen_1.Width+5
                     Y: =5
                     ZIndex: =2
 
-            conMeeting_MyBookingScreen_2 As groupContainer.manualLayoutContainer:
+            conRoom_MyBookingScreen As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 Height: =Parent.Height
                 LayoutMinHeight: =100
@@ -268,8 +271,8 @@
                     PaddingRight: =0
                     PaddingTop: =1
                     Size: =13
-                    Text: ="MEETING"
-                    Width: =90
+                    Text: ="ROOM"
+                    Width: =60
                     ZIndex: =1
 
                 imgMeetingSort_MyBookingScreen_2 As image:
@@ -279,18 +282,19 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =13.5
+                    Height: =12
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =Sort
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =20
-                    X: =lblMeetingText_MyBookingScreen_2.X+lblMeetingText_MyBookingScreen_2.Width
+                    X: |
+                        =lblMeetingText_MyBookingScreen_2.X+lblMeetingText_MyBookingScreen_2.Width+5
                     Y: =5
                     ZIndex: =2
 
-            conMeeting_MyBookingScreen_3 As groupContainer.manualLayoutContainer:
+            conDate_MyBookingScreen As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 Height: =Parent.Height
                 LayoutMinHeight: =100
@@ -317,8 +321,8 @@
                     PaddingRight: =0
                     PaddingTop: =1
                     Size: =13
-                    Text: ="MEETING"
-                    Width: =90
+                    Text: ="DATE"
+                    Width: =49
                     ZIndex: =1
 
                 imgMeetingSort_MyBookingScreen_3 As image:
@@ -328,18 +332,19 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =13.5
+                    Height: =12
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =Sort
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =20
-                    X: =lblMeetingText_MyBookingScreen_3.X+lblMeetingText_MyBookingScreen_3.Width
+                    X: |
+                        =lblMeetingText_MyBookingScreen_3.X+lblMeetingText_MyBookingScreen_3.Width+5
                     Y: =5
                     ZIndex: =2
 
-            conMeeting_MyBookingScreen_4 As groupContainer.manualLayoutContainer:
+            conTime_MyBookingScreen As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 Height: =Parent.Height
                 LayoutMinHeight: =100
@@ -366,8 +371,8 @@
                     PaddingRight: =0
                     PaddingTop: =1
                     Size: =13
-                    Text: ="MEETING"
-                    Width: =90
+                    Text: ="TIME"
+                    Width: =46
                     ZIndex: =1
 
                 imgMeetingSort_MyBookingScreen_4 As image:
@@ -377,25 +382,26 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =13.5
+                    Height: =12
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =Sort
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =20
-                    X: =lblMeetingText_MyBookingScreen_4.X+lblMeetingText_MyBookingScreen_4.Width
+                    X: |
+                        =lblMeetingText_MyBookingScreen_4.X+lblMeetingText_MyBookingScreen_4.Width+5
                     Y: =5
                     ZIndex: =2
 
-            Icon2_1 As icon.Information:
+            icoTech_MyBookingScreen As icon.Information:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 Color: =gblColors.Blue
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(220, 220, 220, 1)
                 DisabledFill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
-                Height: =23
+                Height: =Parent.Height
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverFill: =RGBA(0, 0, 0, 0)
@@ -406,14 +412,14 @@
                 Width: =40
                 ZIndex: =7
 
-            Icon2_2 As icon.Information:
+            icoCat_MyBookingScreen As icon.Information:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 Color: =gblColors.Blue
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(220, 220, 220, 1)
                 DisabledFill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
-                Height: =23
+                Height: =Parent.Height
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverFill: =RGBA(0, 0, 0, 0)
@@ -423,6 +429,58 @@
                 PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =40
                 ZIndex: =8
+
+            icoFac_MyBookingScreen As icon.Information:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =gblColors.Blue
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =Parent.Height
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Information
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =40
+                ZIndex: =9
+
+        conDataTableShp_MyBookingScreen As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            LayoutGap: =3
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =4
+
+            shp_RectangleBlueMeeting_MyBookings As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =10
+                Width: =conMeeting_MyBookingScreen.Width+conDataArea_MyBookingScreen.PaddingLeft
+                ZIndex: =1
+
+            shp_RectangleBlueMeeting_MyBookings_1 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =10
+                Width: =conLocation_MyBookingScreen.Width
+                ZIndex: =2
 
     conMainHeader_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -685,6 +743,7 @@
             BorderColor: =gblColors.LightGray
             BorderThickness: =1
             DropShadow: =DropShadow.Regular
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =conRoomFilterArea_MyBookingScreen.Height-Self.Y-10
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMode: =LayoutMode.Auto
@@ -833,7 +892,8 @@
         conLocationGalleryArea_MyBookingScreen As groupContainer.verticalAutoLayoutContainer:
             BorderColor: =gblColors.LightGray
             BorderThickness: =1
-            DropShadow: =DropShadow.Light
+            DropShadow: =DropShadow.Regular
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =conLocationFilterArea_MyBookingScreen.Height-Self.Y-10
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMode: =LayoutMode.Auto
