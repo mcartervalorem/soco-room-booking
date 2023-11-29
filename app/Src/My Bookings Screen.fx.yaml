@@ -169,7 +169,7 @@
                     PaddingBottom: =0
                     PaddingRight: =0
                     PaddingTop: =1
-                    Size: =13
+                    Size: =12
                     Text: ="MEETING"
                     Width: =82
                     ZIndex: =1
@@ -217,10 +217,9 @@
                     FontWeight: =FontWeight.Semibold
                     Height: =20
                     PaddingBottom: =0
-                    PaddingLeft: =10
                     PaddingRight: =0
                     PaddingTop: =1
-                    Size: =13
+                    Size: =12
                     Text: ="LOCATION"
                     Width: =98
                     ZIndex: =1
@@ -270,7 +269,7 @@
                     PaddingBottom: =0
                     PaddingRight: =0
                     PaddingTop: =1
-                    Size: =13
+                    Size: =12
                     Text: ="ROOM"
                     Width: =60
                     ZIndex: =1
@@ -320,7 +319,7 @@
                     PaddingBottom: =0
                     PaddingRight: =0
                     PaddingTop: =1
-                    Size: =13
+                    Size: =12
                     Text: ="DATE"
                     Width: =49
                     ZIndex: =1
@@ -370,7 +369,7 @@
                     PaddingBottom: =0
                     PaddingRight: =0
                     PaddingTop: =1
-                    Size: =13
+                    Size: =12
                     Text: ="TIME"
                     Width: =46
                     ZIndex: =1
@@ -449,15 +448,11 @@
                 ZIndex: =9
 
         conDataTableShp_MyBookingScreen As groupContainer.horizontalAutoLayoutContainer:
-            DropShadow: =DropShadow.Light
             LayoutGap: =3
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
+            PaddingTop: =3
             ZIndex: =4
 
             shp_RectangleBlueMeeting_MyBookings As rectangle:
@@ -467,20 +462,54 @@
                 DisplayMode: =DisplayMode.View
                 Fill: =gblColors.Blue
                 FocusedBorderThickness: =4
-                Height: =10
+                Height: =3
                 Width: =conMeeting_MyBookingScreen.Width+conDataArea_MyBookingScreen.PaddingLeft
                 ZIndex: =1
 
-            shp_RectangleBlueMeeting_MyBookings_1 As rectangle:
+            shp_RectangleBlueLocation_MyBookings As rectangle:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
                 DisplayMode: =DisplayMode.View
                 Fill: =gblColors.Blue
                 FocusedBorderThickness: =4
-                Height: =10
-                Width: =conLocation_MyBookingScreen.Width
+                Height: =3
+                Width: |
+                    =conLocation_MyBookingScreen.Width+conDataArea_MyBookingScreen.LayoutGap-Parent.LayoutGap
                 ZIndex: =2
+
+            shp_RectangleBlueRoom_MyBookings As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =3
+                Width: =conRoom_MyBookingScreen.Width+conDataArea_MyBookingScreen.LayoutGap-Parent.LayoutGap
+                ZIndex: =3
+
+            shp_RectangleBlueDate_MyBookings As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =3
+                Width: =conDate_MyBookingScreen.Width+conDataArea_MyBookingScreen.LayoutGap-Parent.LayoutGap
+                ZIndex: =4
+
+            shp_RectangleBlueTime_MyBookings As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =3
+                Width: =conDate_MyBookingScreen.Width+conDataArea_MyBookingScreen.LayoutGap-Parent.LayoutGap
+                ZIndex: =5
 
     conMainHeader_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light

@@ -84,7 +84,7 @@ cmp_Navigation As CanvasComponent:
                 OnSelect: =Navigate(LookUp(cmp_Navigation.Items, Index = 1, Screen), ScreenTransition.CoverRight)
                 PaddingBottom: =0
                 Text: =LookUp(cmp_Navigation.Items, Index = 1, Text)
-                Width: =290
+                Width: =300
                 ZIndex: =2
 
             lbl_2 As label:
@@ -149,7 +149,7 @@ cmp_Navigation As CanvasComponent:
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 1
         Width: =275
-        X: =280
+        X: =287
         Y: =35
         ZIndex: =4
 
@@ -164,7 +164,7 @@ cmp_Navigation As CanvasComponent:
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 2
         Width: =112
-        X: =572
+        X: =587
         Y: =35
         ZIndex: =5
 
@@ -179,7 +179,7 @@ cmp_Navigation As CanvasComponent:
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =cmp_Navigation.FocusedNav = 3
         Width: =105
-        X: =710
+        X: =725
         Y: =35
         ZIndex: =6
 
