@@ -511,6 +511,17 @@
                 Width: =conDate_MyBookingScreen.Width+conDataArea_MyBookingScreen.LayoutGap-Parent.LayoutGap
                 ZIndex: =5
 
+            shp_RectangleBlueInfo_MyBookings As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisplayMode: =DisplayMode.View
+                Fill: =gblColors.Blue
+                FocusedBorderThickness: =4
+                Height: =3
+                Width: =icoFac_MyBookingScreen.Width*3+conDataArea_MyBookingScreen.PaddingLeft
+                ZIndex: =6
+
     conMainHeader_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
@@ -539,7 +550,7 @@
             PaddingLeft: =If('My Bookings Screen'.Size <> 1, 40)
             ZIndex: =2
 
-            Image2_5 As image:
+            imgLogo_MyBookingScreen As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -555,7 +566,7 @@
                 Width: =250
                 ZIndex: =1
 
-            Label1_6 As label:
+            lblCompanyName_MyBookingScreen As label:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
