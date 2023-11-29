@@ -147,7 +147,7 @@
                     DisabledColor: =RGBA(220, 220, 220, 1)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =20
+                    Height: =15
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverFill: =RGBA(0, 0, 0, 0)
@@ -169,7 +169,7 @@
                     DisabledColor: =RGBA(220, 220, 220, 1)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =20
+                    Height: =15
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverFill: =RGBA(0, 0, 0, 0)
@@ -313,105 +313,20 @@
                 RadiusTopRight: =4
                 ZIndex: =2
 
-                Container11 As groupContainer.verticalAutoLayoutContainer:
+                ctr_WeekBookings As groupContainer.verticalAutoLayoutContainer:
                     BorderStyle: =BorderStyle.None
                     FillPortions: =3
+                    LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     ZIndex: =1
 
-                    ctr_Monday As groupContainer.verticalAutoLayoutContainer:
-                        BorderStyle: =BorderStyle.None
-                        BorderThickness: =1
-                        DropShadow: =DropShadow.Light
-                        LayoutAlignItems: =LayoutAlignItems.Stretch
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =150
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =1
-
-                        lbl_Monday As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Upper("Mon")
-                            ZIndex: =1
-
-                        lbl_MondayNum As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Day(Last(FirstN(colDaysOfWeek,2)).Value)
-                            ZIndex: =2
-
-                    ctr_Tuesday As groupContainer.verticalAutoLayoutContainer:
+                    ctr_Wednesday As groupContainer.verticalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
                         BorderColor: =gblColors.LightBlue
-                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_TuesdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
+                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_WednesdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
                         BorderThickness: =2
-                        DropShadow: =DropShadow.Light
-                        LayoutAlignItems: =LayoutAlignItems.Stretch
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =150
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =2
-
-                        lbl_Tuesday As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            OnSelect: |-
-                                =UpdateContext({ctxSelectedDate: Last(FirstN(colDaysOfWeek,3)).Value})
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Upper("Tue")
-                            ZIndex: =1
-
-                        lbl_TuesdayNum As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            OnSelect: |-
-                                =UpdateContext({ctxSelectedDate: Last(FirstN(colDaysOfWeek,3)).Value})
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Day(Last(FirstN(colDaysOfWeek,3)).Value)
-                            ZIndex: =2
-
-                    Container15 As groupContainer.verticalAutoLayoutContainer:
-                        BorderStyle: =BorderStyle.None
                         DropShadow: =DropShadow.Light
                         LayoutAlignItems: =LayoutAlignItems.Stretch
                         LayoutDirection: =LayoutDirection.Vertical
@@ -420,7 +335,7 @@
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =3
 
-                        Label6_2 As label:
+                        lbl_Wednesday As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderThickness: =1
                             Color: =RGBA(51, 51, 51, 1)
@@ -435,7 +350,7 @@
                             Text: =Upper("Wed")
                             ZIndex: =1
 
-                        Label6_7 As label:
+                        lbl_WednesdayNum As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =1
@@ -451,8 +366,11 @@
                             Text: =Day(Last(FirstN(colDaysOfWeek,4)).Value)
                             ZIndex: =2
 
-                    Container17 As groupContainer.verticalAutoLayoutContainer:
-                        BorderStyle: =BorderStyle.None
+                    ctr_Thursday As groupContainer.verticalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        BorderColor: =gblColors.LightBlue
+                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_ThursdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
+                        BorderThickness: =2
                         DropShadow: =DropShadow.Light
                         LayoutAlignItems: =LayoutAlignItems.Stretch
                         LayoutDirection: =LayoutDirection.Vertical
@@ -461,7 +379,7 @@
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =4
 
-                        Label6_3 As label:
+                        lbl_Thursday As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderThickness: =1
                             Color: =RGBA(51, 51, 51, 1)
@@ -476,7 +394,7 @@
                             Text: =Upper("thu")
                             ZIndex: =1
 
-                        Label6_8 As label:
+                        lbl_ThursdayNum As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =1
@@ -492,8 +410,11 @@
                             Text: =Day(Last(FirstN(colDaysOfWeek,5)).Value)
                             ZIndex: =2
 
-                    Container17_1 As groupContainer.verticalAutoLayoutContainer:
-                        BorderStyle: =BorderStyle.None
+                    ctr_Friday As groupContainer.verticalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        BorderColor: =gblColors.LightBlue
+                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_FridayNum.Text),  BorderStyle.Solid, BorderStyle.None)
+                        BorderThickness: =2
                         DropShadow: =DropShadow.Light
                         LayoutAlignItems: =LayoutAlignItems.Stretch
                         LayoutDirection: =LayoutDirection.Vertical
@@ -502,7 +423,7 @@
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =5
 
-                        Label6_4 As label:
+                        lbl_Friday As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderThickness: =1
                             Color: =RGBA(51, 51, 51, 1)
@@ -517,7 +438,7 @@
                             Text: =Upper("Fri")
                             ZIndex: =1
 
-                        Label6_9 As label:
+                        lbl_FridayNum As label:
                             BorderColor: =RGBA(214, 221, 224, 1)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =1

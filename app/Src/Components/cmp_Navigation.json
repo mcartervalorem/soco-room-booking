@@ -187,7 +187,7 @@
                 "Name": "lbl_0",
                 "Parent": "Container1",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 211,
+                "PublishOrderIndex": 209,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -623,7 +623,7 @@
                 "Name": "lbl_1",
                 "Parent": "Container1",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 212,
+                "PublishOrderIndex": 210,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -1059,7 +1059,7 @@
                 "Name": "lbl_2",
                 "Parent": "Container1",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 213,
+                "PublishOrderIndex": 211,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -1495,7 +1495,7 @@
                 "Name": "lbl_3",
                 "Parent": "Container1",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 214,
+                "PublishOrderIndex": 212,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -1905,7 +1905,7 @@
             "Name": "Container1",
             "Parent": "Container3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 210,
+            "PublishOrderIndex": 208,
             "Rules": [
               {
                 "Category": "Design",
@@ -2171,7 +2171,7 @@
         "Name": "Container3",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 209,
+        "PublishOrderIndex": 207,
         "Rules": [
           {
             "Category": "Design",
@@ -2425,7 +2425,7 @@
         "Name": "shp_Underline0",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 215,
+        "PublishOrderIndex": 213,
         "Rules": [
           {
             "Category": "Design",
@@ -2637,7 +2637,7 @@
         "Name": "shp_Underline1",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 216,
+        "PublishOrderIndex": 214,
         "Rules": [
           {
             "Category": "Design",
@@ -2849,7 +2849,7 @@
         "Name": "shp_Underline2",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 217,
+        "PublishOrderIndex": 215,
         "Rules": [
           {
             "Category": "Design",
@@ -3061,7 +3061,7 @@
         "Name": "shp_Underline3",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 218,
+        "PublishOrderIndex": 216,
         "Rules": [
           {
             "Category": "Design",
@@ -3279,7 +3279,7 @@
         "Name": "shp_Divider",
         "Parent": "cmp_Navigation",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 219,
+        "PublishOrderIndex": 217,
         "Rules": [
           {
             "Category": "Design",
