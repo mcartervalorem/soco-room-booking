@@ -3,23 +3,206 @@
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     conMainScreenMobile_MyBookingsScreen As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.Bold
-        Fill: =RGBA(21, 68, 18, 1)
-        Height: =50
+        Height: =506
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: ='My Bookings Screen'.Size = 1
+        Visible: =true//'My Bookings Screen'.Size = 1
+        Width: =galBookingDataMobile_MyBookingsScreen.Width
         Y: =125
         ZIndex: =1
+
+        galBookingDataMobile_MyBookingsScreen As gallery.variableTemplateHeightGallery:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            DelayItemLoading: =true
+            Height: =502
+            Items: =CustomGallerySample
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplatePadding: =25
+            TemplateSize: =250
+            Width: |-
+                =325
+                
+                +Self.TemplatePadding*2
+            ZIndex: =1
+
+            conRowsInformationMobile_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Regular
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =220
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =10
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =10
+                PaddingLeft: =10
+                PaddingTop: =10
+                Width: =325
+                ZIndex: =1
+
+                lblMeetingInformationMobile_MyBookingsScreen As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =gblFont.Font
+                    Size: =13
+                    Text: ="Text"
+                    ZIndex: =1
+
+                conImg_MyBookingScreen As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    FillPortions: =0
+                    Height: =35
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =2
+
+                    imgScreenMobile_MyBookingsScreen As image:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =25
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Screen
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
+                        ZIndex: =1
+
+                    imgPizzaMobile_MyBookingsScreen As image:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Pizza
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
+                        ZIndex: =2
+
+                    imgChairMobile_MyBookingsScreen As image:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Chair
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
+                        ZIndex: =3
+
+                conDateTimeInformationMobile_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    FillPortions: =0
+                    Height: =40
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: |
+                        =Parent.Width-Parent.PaddingLeft*2
+                    ZIndex: =3
+
+                    lblLocationMobile_MyBookingsScreen As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =gblFont.Font
+                        Size: =13
+                        Text: ="Text"
+                        ZIndex: =1
+
+                    lblDateMobile_MyBookingsScreen As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =gblFont.Font
+                        Size: =13
+                        Text: ="Text"
+                        Width: =75
+                        ZIndex: =2
+
+                    lblTimeMobile_MyBookingsScreen As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(51, 51, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =gblFont.Font
+                        Size: =13
+                        Text: ="Text"
+                        Width: =75
+                        ZIndex: =3
+
+                btnEditCardMobile_MyBookingsScreen As button:
+                    BorderColor: =gblColors.Blue
+                    BorderThickness: =3
+                    Color: =gblColors.Blue
+                    DisabledBorderColor: =gblColors.Blue
+                    DisabledColor: =Self.Color
+                    DisabledFill: =Self.Fill
+                    Fill: =RGBA(255, 255, 255, 1)
+                    FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                    Font: =gblFont.Font
+                    FontWeight: =FontWeight.Semibold
+                    HoverBorderColor: =gblColors.Blue
+                    HoverFill: =Self.Fill
+                    PressedBorderColor: =gblColors.Blue
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Text: ="Edit"
+                    Width: |
+                        =Parent.Width-Parent.PaddingLeft*2
+                    ZIndex: =4
 
     conMainScreen_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height-Self.Y-25
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Visible: ='My Bookings Screen'.Size <> 1
+        Visible: =false//'My Bookings Screen'.Size <> 1
         Width: =Parent.Width-Self.X*2
         X: =25
         Y: =conMainHeader_MyBookingsScreen.Height+25
@@ -895,7 +1078,7 @@
     conRoomFilterArea_MyBookingsScreen As groupContainer.manualLayoutContainer:
         BorderColor: =gblColors.LightGray
         Height: =If(locFilterRooms,270,44)
-        Visible: ='My Bookings Screen'.Size <> 1
+        Visible: =false//'My Bookings Screen'.Size <> 1
         Width: =300
         X: =conRoomFilterAreaBlank_MyBookingsScreen.X+conFilterArea_MyBookingsScreen.PaddingLeft
         Y: =conMainScreen_MyBookingsScreen.Y+conFilterArea_MyBookingsScreen.Y+conLocationFilterAreaBlank_MyBookingsScreen.Y
@@ -1046,7 +1229,7 @@
     conLocationFilterArea_MyBookingsScreen As groupContainer.manualLayoutContainer:
         BorderColor: =gblColors.LightGray
         Height: =If(locFilterLocation,270,44)
-        Visible: ='My Bookings Screen'.Size <> 1
+        Visible: =false//'My Bookings Screen'.Size <> 1
         Width: =300
         X: =conLocationFilterAreaBlank_MyBookingsScreen.X+conFilterArea_MyBookingsScreen.PaddingLeft
         Y: =conMainScreen_MyBookingsScreen.Y+conFilterArea_MyBookingsScreen.Y+conRoomFilterAreaBlank_MyBookingsScreen.Y
