@@ -2,15 +2,28 @@
     Fill: =RGBA(244, 244, 244, 1)
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
+    conMainScreenMobile_MyBookingsScreen As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Fill: =RGBA(21, 68, 18, 1)
+        Height: =50
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Visible: ='My Bookings Screen'.Size = 1
+        Y: =125
+        ZIndex: =1
+
     conMainScreen_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height-Self.Y-25
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
+        Visible: ='My Bookings Screen'.Size <> 1
         Width: =Parent.Width-Self.X*2
         X: =25
         Y: =conMainHeader_MyBookingsScreen.Height+25
-        ZIndex: =1
+        ZIndex: =2
 
         conFilterArea_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
             FillPortions: =0
@@ -704,7 +717,7 @@
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =Parent.Width
-        ZIndex: =2
+        ZIndex: =3
 
         conHeader_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -765,7 +778,6 @@
             ZIndex: =3
 
             conColorImage_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -883,10 +895,11 @@
     conRoomFilterArea_MyBookingsScreen As groupContainer.manualLayoutContainer:
         BorderColor: =gblColors.LightGray
         Height: =If(locFilterRooms,270,44)
+        Visible: ='My Bookings Screen'.Size <> 1
         Width: =300
         X: =conRoomFilterAreaBlank_MyBookingsScreen.X+conFilterArea_MyBookingsScreen.PaddingLeft
         Y: =conMainScreen_MyBookingsScreen.Y+conFilterArea_MyBookingsScreen.Y+conLocationFilterAreaBlank_MyBookingsScreen.Y
-        ZIndex: =3
+        ZIndex: =4
 
         txtRoomTxtArea_MyBookingsScreen As text:
             BorderColor: =gblColors.LightGray
@@ -1033,10 +1046,11 @@
     conLocationFilterArea_MyBookingsScreen As groupContainer.manualLayoutContainer:
         BorderColor: =gblColors.LightGray
         Height: =If(locFilterLocation,270,44)
+        Visible: ='My Bookings Screen'.Size <> 1
         Width: =300
         X: =conLocationFilterAreaBlank_MyBookingsScreen.X+conFilterArea_MyBookingsScreen.PaddingLeft
         Y: =conMainScreen_MyBookingsScreen.Y+conFilterArea_MyBookingsScreen.Y+conRoomFilterAreaBlank_MyBookingsScreen.Y
-        ZIndex: =4
+        ZIndex: =5
 
         txtLocationTxtArea_MyBookingsScreen As text:
             BorderColor: =gblColors.LightGray
