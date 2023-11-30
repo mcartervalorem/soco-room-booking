@@ -548,6 +548,7 @@
 
                 conRowsInformatiom_MyBookingsScreen As groupContainer.horizontalAutoLayoutContainer:
                     Height: =Parent.Height
+                    LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutGap: =10
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =50
@@ -634,43 +635,52 @@
                         Width: =conDate_MyBookingsScreen.Width+conDataArea_MyBookingsScreen.LayoutGap-Parent.LayoutGap
                         ZIndex: =5
 
-                    Image3 As image:
+                    imgScreen_MyBookingsScreen As image:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledFill: =RGBA(0, 0, 0, 0)
                         FocusedBorderThickness: =4
+                        Height: =25
                         HoverBorderColor: =RGBA(0, 0, 0, 0)
                         HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Screen
                         PressedBorderColor: =RGBA(0, 0, 0, 0)
                         PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
                         ZIndex: =6
 
-                    Image3_2 As image:
+                    imgPizza_MyBookingsScreen As image:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledFill: =RGBA(0, 0, 0, 0)
                         FocusedBorderThickness: =4
+                        Height: =30
                         HoverBorderColor: =RGBA(0, 0, 0, 0)
                         HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Pizza
                         PressedBorderColor: =RGBA(0, 0, 0, 0)
                         PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
                         ZIndex: =7
 
-                    Image3_3 As image:
+                    imgCHair_MyBookingsScreen As image:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledFill: =RGBA(0, 0, 0, 0)
                         FocusedBorderThickness: =4
+                        Height: =30
                         HoverBorderColor: =RGBA(0, 0, 0, 0)
                         HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =Chair
                         PressedBorderColor: =RGBA(0, 0, 0, 0)
                         PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =40
                         ZIndex: =8
 
             rctBookingRowUnderline_MyBookingsScreen As rectangle:
