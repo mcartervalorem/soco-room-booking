@@ -1213,6 +1213,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreenMobile_MyBookingsScreen.conSearchAreaMobile_MyBookingsScreen.txtSearchInputMobile_MyBookingsScreen.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'My Bookings Screen'.conMainScreenMobile_MyBookingsScreen.conSearchAreaMobile_MyBookingsScreen.txtSearchInputMobile_MyBookingsScreen.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "My Bookings Screen",
+                "type": "'My Bookings Screen'.conMainScreenMobile_MyBookingsScreen.conSearchAreaMobile_MyBookingsScreen.txtSearchInputMobile_MyBookingsScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.Info"
                 }
               ],
