@@ -448,6 +448,8 @@
                 ZIndex: =9
 
         conDataTableShp_MyBookingScreen As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =5
             LayoutGap: =3
             LayoutMinHeight: =100
             LayoutMinWidth: =250
