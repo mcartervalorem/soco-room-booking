@@ -3349,7 +3349,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox3",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5765,7 +5765,8 @@
           "InvariantPropertyName": "PaddingLeft",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "PaddingRight"
       ],
       "DynamicProperties": [
         {
@@ -5832,6 +5833,11 @@
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingRight",
+          "RuleProviderType": "Unknown"
+        },
         {
           "Category": "Design",
           "PropertyName": "BorderColor",
@@ -6485,7 +6491,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conFiltersMobile_MyBookingsScreen",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7722,7 +7728,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conLocationFilterArea_MyBookingsScreen",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7937,7 +7943,8 @@
           "InvariantPropertyName": "BorderThickness",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Visible"
       ],
       "DynamicProperties": [
         {
@@ -8008,9 +8015,14 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conLocationFilterAreaBlank_MyBookingsScreen",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Visible",
+          "RuleProviderType": "Unknown"
+        },
         {
           "Category": "Design",
           "PropertyName": "RadiusTopRight",
@@ -9236,7 +9248,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conMainScreen_MyBookingsScreen",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10417,7 +10429,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conRoomFilterArea_MyBookingsScreen",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10632,7 +10644,8 @@
           "InvariantPropertyName": "BorderThickness",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Visible"
       ],
       "DynamicProperties": [
         {
@@ -10706,6 +10719,11 @@
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Visible",
+          "RuleProviderType": "Unknown"
+        },
         {
           "Category": "Design",
           "PropertyName": "BorderStyle",
@@ -12645,7 +12663,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "conSearchAreaMobile_MyBookingsScreen",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15195,7 +15213,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "galBookingDataMobile_MyBookingsScreen",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -31374,7 +31392,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shpBGPopUps",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
