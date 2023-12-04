@@ -229,7 +229,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2_5 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_BrandingBar As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -237,72 +237,7 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                Rectangle2_6 As rectangle:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Red
-                    FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
-                    ZIndex: =1
-
-                Rectangle3_6 As rectangle:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Blue
-                    FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
-                    ZIndex: =2
-
-                Rectangle4_6 As rectangle:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.LightBlue
-                    FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
-                    ZIndex: =3
-
-                Rectangle5_6 As rectangle:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.LightGreen
-                    FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
-                    ZIndex: =4
-
-                Rectangle6_6 As rectangle:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    BorderThickness: =2
-                    DisabledFill: =RGBA(166, 166, 166, 1)
-                    Fill: =gblColors.Yellow
-                    FocusedBorderThickness: =4
-                    Height: =10
-                    HoverFill: =RGBA(0, 120, 212, 1)
-                    PressedFill: =RGBA(0, 120, 212, 1)
-                    Width: =Parent.Width/5
-                    ZIndex: =5
-
-            Container10 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_Week As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -313,148 +248,7 @@
                 RadiusTopRight: =4
                 ZIndex: =2
 
-                ctr_WeekBookings As groupContainer.verticalAutoLayoutContainer:
-                    BorderStyle: =BorderStyle.None
-                    FillPortions: =3
-                    LayoutAlignItems: =LayoutAlignItems.Stretch
-                    LayoutMinHeight: =100
-                    LayoutMinWidth: =250
-                    LayoutMode: =LayoutMode.Auto
-                    ZIndex: =1
-
-                    ctr_Wednesday As groupContainer.verticalAutoLayoutContainer:
-                        AlignInContainer: =AlignInContainer.SetByContainer
-                        BorderColor: =gblColors.LightBlue
-                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_WednesdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
-                        BorderThickness: =2
-                        DropShadow: =DropShadow.Light
-                        LayoutAlignItems: =LayoutAlignItems.Stretch
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =150
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =3
-
-                        lbl_Wednesday As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Upper("Wed")
-                            ZIndex: =1
-
-                        lbl_WednesdayNum As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Day(Last(FirstN(colDaysOfWeek,4)).Value)
-                            ZIndex: =2
-
-                    ctr_Thursday As groupContainer.verticalAutoLayoutContainer:
-                        AlignInContainer: =AlignInContainer.SetByContainer
-                        BorderColor: =gblColors.LightBlue
-                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_ThursdayNum.Text),  BorderStyle.Solid, BorderStyle.None)
-                        BorderThickness: =2
-                        DropShadow: =DropShadow.Light
-                        LayoutAlignItems: =LayoutAlignItems.Stretch
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =150
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =4
-
-                        lbl_Thursday As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Upper("thu")
-                            ZIndex: =1
-
-                        lbl_ThursdayNum As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Day(Last(FirstN(colDaysOfWeek,5)).Value)
-                            ZIndex: =2
-
-                    ctr_Friday As groupContainer.verticalAutoLayoutContainer:
-                        AlignInContainer: =AlignInContainer.SetByContainer
-                        BorderColor: =gblColors.LightBlue
-                        BorderStyle: =If(Day(ctxSelectedDate) = Int(lbl_FridayNum.Text),  BorderStyle.Solid, BorderStyle.None)
-                        BorderThickness: =2
-                        DropShadow: =DropShadow.Light
-                        LayoutAlignItems: =LayoutAlignItems.Stretch
-                        LayoutDirection: =LayoutDirection.Vertical
-                        LayoutMinHeight: =100
-                        LayoutMinWidth: =150
-                        LayoutMode: =LayoutMode.Auto
-                        ZIndex: =5
-
-                        lbl_Friday As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Upper("Fri")
-                            ZIndex: =1
-
-                        lbl_FridayNum As label:
-                            BorderColor: =RGBA(214, 221, 224, 1)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =1
-                            Color: =RGBA(51, 51, 51, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =gblFont.Font
-                            FontWeight: =FontWeight.Semibold
-                            Height: =30
-                            PaddingLeft: =10
-                            Size: =11
-                            Text: =Day(Last(FirstN(colDaysOfWeek,6)).Value)
-                            ZIndex: =2
-
-                Container12 As groupContainer.verticalAutoLayoutContainer:
+                ctr_BookingsDay As groupContainer.verticalAutoLayoutContainer:
                     DropShadow: =DropShadow.Light
                     LayoutAlignItems: =LayoutAlignItems.Stretch
                     LayoutDirection: =LayoutDirection.Vertical
@@ -466,19 +260,4 @@
                     RadiusTopLeft: =4
                     RadiusTopRight: =4
                     ZIndex: =2
-
-                    Label5 As label:
-                        Align: =Align.Center
-                        BorderColor: =RGBA(0, 0, 0, 0)
-                        BorderStyle: =BorderStyle.None
-                        BorderThickness: =2
-                        Color: =gblColors.LightBlue
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledColor: =RGBA(166, 166, 166, 1)
-                        FocusedBorderThickness: =4
-                        Font: =gblFont.Font
-                        FontWeight: =FontWeight.Semibold
-                        Size: =13
-                        Text: =Text(ctxSelectedDate, "dddd, mmmm d")
-                        ZIndex: =1
 
