@@ -12,7 +12,8 @@ App As appinfo:
                 Background: ColorValue("#F4F4F4"),
                 LightGray:ColorValue("#D5D5D5"),
                 Gray:ColorValue("#626262"),
-                FontGray:ColorValue("#4D4D4D")    
+                FontGray:ColorValue("#4D4D4D"),
+                GrayChevron: ColorValue("#EBEDFB")    
             }
         );
         Set(gblYear, Year(Today()));

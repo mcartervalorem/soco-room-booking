@@ -88,7 +88,7 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
+                    Font: =gblFont.Font
                     FontWeight: =FontWeight.Semibold
                     Height: =35
                     OnSelect: =Navigate(Home, ScreenTransition.CoverRight)
@@ -117,7 +117,7 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
+                    Font: =gblFont.Font
                     FontWeight: =FontWeight.Semibold
                     Size: =12
                     Text: ="Week"
@@ -133,7 +133,7 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
+                    Font: =gblFont.Font
                     FontWeight: =FontWeight.Semibold
                     Size: =12
                     Text: ="Month"
@@ -198,7 +198,7 @@
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    Font: =Font.'Segoe UI'
+                    Font: =gblFont.Font
                     FontWeight: =FontWeight.Semibold
                     HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
@@ -342,7 +342,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -358,7 +358,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -386,7 +386,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -402,7 +402,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -430,7 +430,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -446,7 +446,7 @@
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
+                            Font: =gblFont.Font
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =10
@@ -476,7 +476,7 @@
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.'Segoe UI'
+                        Font: =gblFont.Font
                         FontWeight: =FontWeight.Semibold
                         Size: =13
                         Text: =Text(ctxSelectedDate, "dddd, mmmm d")
