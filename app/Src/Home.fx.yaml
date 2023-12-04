@@ -69,7 +69,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_BrandingBar_Home As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
@@ -142,7 +142,7 @@
                     Width: =Parent.Width/5
                     ZIndex: =5
 
-            Image1 As image:
+            img_Home As image:
                 AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -161,7 +161,7 @@
                 Visible: =Home.Size <> 1
                 ZIndex: =2
 
-            Image5 As image:
+            img_HomeMobile As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -179,7 +179,7 @@
                 Width: =490
                 ZIndex: =3
 
-            Container4 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_HomeNavButtons As groupContainer.horizontalAutoLayoutContainer:
                 Fill: =gblColors.Background
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
