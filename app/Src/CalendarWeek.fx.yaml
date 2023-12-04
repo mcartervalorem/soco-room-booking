@@ -229,7 +229,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Container2_5 As groupContainer.horizontalAutoLayoutContainer:
+            ctr_BrandingBar As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =10
                 LayoutMinHeight: =100
