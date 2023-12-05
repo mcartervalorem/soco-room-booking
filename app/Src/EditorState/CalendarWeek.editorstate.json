@@ -29,6 +29,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CalendarWeek",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -233,6 +234,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container9",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -502,6 +504,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BackHome_Mobile_2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -723,6 +726,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BookingsDay",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -969,6 +973,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BrandingBar",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1173,6 +1178,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_Week",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1454,7 +1460,8 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Dropdown1",
-      "ParentIndex": 4,
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1856,6 +1863,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%HeaderContainer.ID%",
       "Name": "HeaderContainer1_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2087,7 +2095,8 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1",
-      "ParentIndex": 2,
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2318,7 +2327,8 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2",
-      "ParentIndex": 3,
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2548,6 +2558,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "img_BackHome_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2838,6 +2849,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3173,6 +3185,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3516,6 +3529,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_BackHome_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3833,6 +3847,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%MainContainer.ID%",
       "Name": "MainContainer1_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4031,6 +4046,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "ScreenContainer1_6",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [

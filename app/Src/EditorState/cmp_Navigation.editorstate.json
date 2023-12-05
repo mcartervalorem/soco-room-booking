@@ -65,6 +65,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "cmp_Navigation",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -267,6 +268,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -496,6 +498,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -787,6 +790,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_0",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1163,6 +1167,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1539,6 +1544,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1915,6 +1921,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2221,6 +2228,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shp_Divider",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2396,6 +2404,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shp_Underline0",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2576,6 +2585,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shp_Underline1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2756,6 +2766,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shp_Underline2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2936,6 +2947,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "shp_Underline3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [

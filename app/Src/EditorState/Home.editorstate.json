@@ -124,6 +124,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BrandingBar_Home",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -377,6 +378,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_HomeNavButtons",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -638,6 +640,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%HeaderContainer.ID%",
       "Name": "HeaderContainer1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -786,6 +789,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Home",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -935,6 +939,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1218,7 +1223,8 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "img_Home",
-      "ParentIndex": 1,
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1492,7 +1498,8 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "img_HomeMobile",
-      "ParentIndex": 2,
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1804,6 +1811,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2128,6 +2136,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_AppName_Mobile",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2452,6 +2461,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%MainContainer.ID%",
       "Name": "MainContainer1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2650,6 +2660,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "ScreenContainer1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [

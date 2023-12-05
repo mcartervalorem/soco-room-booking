@@ -37,6 +37,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AdminPanel",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -260,6 +261,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "btn_Login",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -569,6 +571,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_Navigation_4",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -742,6 +745,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_AdminPanel",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1016,6 +1020,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_AdminPanel_Left",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1258,6 +1263,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%MainContainer.ID%",
       "Name": "ctr_AdminPanel_Main",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1497,6 +1503,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_Adminpanel_Right",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1766,6 +1773,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BackHome_Mobile_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2022,6 +2030,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_BrandColors",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2283,6 +2292,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%HeaderContainer.ID%",
       "Name": "ctr_Header",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2570,6 +2580,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_Login",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2836,6 +2847,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_LoginButton",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3124,6 +3136,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_LoginLeft",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3395,6 +3408,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ctr_LoginRight",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3629,6 +3643,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "drp_TabletRoom",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3944,6 +3959,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_6",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4199,6 +4215,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "img_BackHome",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4511,6 +4528,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4866,6 +4884,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5221,6 +5240,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_BackHome",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5540,6 +5560,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_IsTablet",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5854,6 +5875,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Login",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6175,6 +6197,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_LogInMessage",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6489,6 +6512,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_Password",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6803,6 +6827,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "lbl_TabletRoom",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7100,6 +7125,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle2_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7270,6 +7296,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle3_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7440,6 +7467,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle4_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7610,6 +7638,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle5_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7780,6 +7809,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle6_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7938,6 +7968,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "ScreenContainer1_5",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -8171,6 +8202,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "tgl_IsTablet",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -8414,6 +8446,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Login",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -8722,6 +8755,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "txt_Password",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [

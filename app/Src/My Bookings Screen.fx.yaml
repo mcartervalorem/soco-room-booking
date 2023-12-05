@@ -334,7 +334,7 @@
                 LayoutMinHeight: =100
                 LayoutMinWidth: =50
                 Width: =210
-                ZIndex: =2
+                ZIndex: =1
 
                 txtSearchInput_MyBookingsScreen As text:
                     BorderColor: =gblColors.LightGray
@@ -395,7 +395,7 @@
                 LayoutMinWidth: =50
                 Visible: =false
                 Width: =300
-                ZIndex: =3
+                ZIndex: =2
 
                 conRoomFilterAreaBlankBoard_MyBookingsScreen As groupContainer.manualLayoutContainer:
                     BorderColor: =gblColors.LightGray
@@ -415,7 +415,7 @@
                 LayoutMinWidth: =50
                 Visible: =false
                 Width: =300
-                ZIndex: =4
+                ZIndex: =3
 
                 conLocatiocFilterAreaBlankBoard_MyBookingsScreen_1 As groupContainer.manualLayoutContainer:
                     BorderColor: =gblColors.LightGray
@@ -428,11 +428,12 @@
 
             ComboBox3 As combobox:
                 BorderColor: =gblColors.LightGray
+                BorderThickness: =1
                 ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
                 ChevronDisabledFill: =RGBA(166, 166, 166, 1)
                 ChevronFill: =gblColors.Gray
-                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                ChevronHoverBackground: =RGBA(0, 0, 0, 0)
                 ChevronHoverFill: =RGBA(33, 33, 33, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -441,47 +442,49 @@
                 Height: =44
                 HoverBorderColor: =gblColors.LightGray
                 HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(212, 212, 212, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Items: =ComboBoxSample
                 PressedBorderColor: =gblColors.LightGray
                 PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =
                 SearchItems: =Search(ComboBoxSample,ComboBox3.SearchText,"Value1")
+                SelectionColor: =RGBA(0, 0, 0, 1)
+                SelectionFill: =gblColors.Blue
+                Size: =13
+                Width: =210
+                ZIndex: =4
+
+            ComboBox3_1 As combobox:
+                BorderColor: =gblColors.LightGray
+                BorderThickness: =1
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =gblColors.Gray
+                ChevronHoverBackground: =RGBA(0, 0, 0, 0)
+                ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                Height: =44
+                HoverBorderColor: =gblColors.LightGray
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Items: =ComboBoxSample
+                PressedBorderColor: =gblColors.LightGray
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =
+                SearchItems: =Search(ComboBoxSample,ComboBox3_1.SearchText,"Value1")
                 SelectionColor: =RGBA(0, 0, 0, 1)
                 SelectionFill: =gblColors.Blue
                 Size: =13
                 Width: =210
                 ZIndex: =5
 
-            ComboBox3_1 As combobox:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                ChevronBackground: =RGBA(255, 255, 255, 1)
-                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                ChevronFill: =RGBA(33, 33, 33, 1)
-                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-                ChevronHoverFill: =RGBA(33, 33, 33, 1)
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Font: =Font.'Segoe UI'
-                Height: =44
-                HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =ComboBoxSample
-                PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(0, 120, 212, 1)
-                SearchItems: =Search(ComboBoxSample,ComboBox3_1.SearchText,"Value1")
-                SelectionFill: =RGBA(0, 120, 212, 1)
-                Size: =13
-                Width: =210
-                ZIndex: =6
-
             DatePicker2 As datepicker:
-                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =gblColors.LightGray
+                BorderThickness: =1
                 CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -490,42 +493,110 @@
                 Font: =Font.'Segoe UI'
                 Height: =44
                 HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(0, 120, 212, 1)
+                IconBackground: =
+                IconFill: =gblColors.Gray
+                PaddingTop: =5
+                SelectedDateFill: =RGBA(0, 120, 212, 1)
+                Size: =13
+                Width: =210
+                ZIndex: =6
+
+            DatePicker2_1 As datepicker:
+                BorderColor: =gblColors.LightGray
+                BorderThickness: =1
+                CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                Height: =44
+                HoverDateFill: =RGBA(200, 200, 200, 1)
+                IconBackground: =
+                IconFill: =gblColors.Gray
                 PaddingTop: =5
                 SelectedDateFill: =RGBA(0, 120, 212, 1)
                 Size: =13
                 Width: =210
                 ZIndex: =7
 
-            DatePicker2_1 As datepicker:
-                BorderColor: =RGBA(166, 166, 166, 1)
-                CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Font: =Font.'Segoe UI'
-                Height: =44
-                HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =RGBA(0, 120, 212, 1)
-                PaddingTop: =5
-                SelectedDateFill: =RGBA(0, 120, 212, 1)
-                Size: =13
-                Width: =210
-                ZIndex: =8
-
             Container15 As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                BorderColor: =gblColors.Blue
+                BorderThickness: =2
                 FillPortions: =0
                 Height: =44
                 LayoutMinHeight: =40
                 LayoutMinWidth: =250
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
                 Width: =(Parent.Width-DatePicker2_1.X-Parent.PaddingLeft*2-Parent.LayoutGap*3)/2
-                ZIndex: =9
+                ZIndex: =8
+
+                lblMeetingText_MyBookingsScreen_5 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =gblColors.Blue
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =gblFont.Font
+                    Height: =Parent.Height
+                    PaddingBottom: =0
+                    PaddingRight: =0
+                    PaddingTop: =1
+                    Size: =12
+                    Text: ="Clear all"
+                    Width: =80
+                    X: =Icon3.X+Icon3.Width
+                    ZIndex: =1
+
+                Icon3 As icon.Cancel:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Color: =gblColors.Blue
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =44
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Cancel
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =20
+                    X: =(Button2.Width-Self.Width)/4
+                    ZIndex: =2
+
+                Button2 As button:
+                    BorderColor: =gblColors.Blue
+                    BorderThickness: =0
+                    Color: =RGBA(0, 0, 0, 0)
+                    DisabledBorderColor: =gblColors.Blue
+                    DisabledColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =Parent.Height-2
+                    HoverBorderColor: =gblColors.Blue
+                    HoverColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =
+                    PressedBorderColor: =gblColors.Blue
+                    PressedColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =15
+                    Text: ="Button"
+                    Width: =Parent.Width-2
+                    X: =1
+                    Y: =1
+                    ZIndex: =3
 
         conDataArea_MyBookingsScreen As groupContainer.verticalAutoLayoutContainer:
             FillPortions: =0
