@@ -122,45 +122,6 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =4
 
-                Container4 As groupContainer.horizontalAutoLayoutContainer:
-                    DropShadow: =DropShadow.Light
-                    FillPortions: =0
-                    LayoutAlignItems: =LayoutAlignItems.Center
-                    LayoutJustifyContent: =LayoutJustifyContent.Center
-                    LayoutMinHeight: =100
-                    LayoutMinWidth: =250
-                    LayoutMode: =LayoutMode.Auto
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
-                    ZIndex: =2
-
-                    cmp_HomeButton_1 As cmp_HomeButton:
-                        Height: =If(cmp_HomeButton_1.ScreenSize <> 1, 250, 70)
-                        LayoutMinHeight: =640
-                        LayoutMinWidth: =640
-                        Width: =If(cmp_HomeButton_1.ScreenSize <> 1, 350, 350)
-
-                    cmp_HomeButton_2 As cmp_HomeButton:
-                        Height: =If(cmp_HomeButton_2.ScreenSize <> 1, 250, 70)
-                        LayoutMinHeight: =640
-                        LayoutMinWidth: =640
-                        Width: =If(cmp_HomeButton_2.ScreenSize <> 1, 350, 350)
-                        ZIndex: =2
-
-                    cmp_HomeButton_3 As cmp_HomeButton:
-                        Height: =If(cmp_HomeButton_3.ScreenSize <> 1, 250, 70)
-                        LayoutMinHeight: =640
-                        LayoutMinWidth: =640
-                        Width: =If(cmp_HomeButton_3.ScreenSize <> 1, 350, 350)
-                        ZIndex: =3
-
-                cmp_AdminButton_1 As cmp_AdminButton:
-                    LayoutMinHeight: =640
-                    LayoutMinWidth: =640
-                    ZIndex: =3
-
     lbl_AppName_Mobile As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
