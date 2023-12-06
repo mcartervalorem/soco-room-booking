@@ -8,7 +8,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =true//'My Bookings Screen'.Size = 1
+        Visible: ='My Bookings Screen'.Size = 1
         Width: =/*galBookingDataMobile_MyBookingsScreen.Width*/ Parent.Width
         Y: =125
         ZIndex: =1
@@ -184,6 +184,8 @@
                     FontWeight: =FontWeight.Semibold
                     HoverBorderColor: =gblColors.Blue
                     HoverFill: =Self.Fill
+                    OnSelect: |-
+                        =UpdateContext({locMobileEdit: true})
                     PressedBorderColor: =gblColors.Blue
                     PressedColor: =Self.Color
                     PressedFill: =Self.Fill
@@ -303,7 +305,7 @@
         Height: =Parent.Height-Self.Y-25
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Visible: =false//'My Bookings Screen'.Size <> 1
+        Visible: ='My Bookings Screen'.Size <> 1
         Width: =Parent.Width-Self.X*2
         X: =25
         Y: =conMainHeader_MyBookingsScreen.Height+25
@@ -1685,8 +1687,8 @@
         FocusedBorderColor: =RGBA(98, 100, 167, 1)
         Height: =Parent.Height
         OnSelect: |-
-            =UpdateContext({locMobileFilter:false})
-        Visible: =locMobileFilter
+            =UpdateContext({locMobileFilter:false,locMobileEdit:false})
+        Visible: =locMobileFilter || locMobileEdit
         Width: =Parent.Width
         ZIndex: =6
 
@@ -2069,7 +2071,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =locMobileFilter
+        Visible: =locMobileEdit
         Width: =Parent.Width-50
         X: =(Parent.Width-Self.Width)/2
         Y: =(Parent.Height-Self.Height)/2
@@ -2099,7 +2101,7 @@
                 Font: =gblFont.Font
                 FontWeight: =FontWeight.Semibold
                 Size: =17
-                Text: ="Filters"
+                Text: ="Edit"
                 Width: |
                     =Parent.Width-icoCloseFilterMobile_MyBookingsScreen_1.Width-Parent.PaddingLeft*2
                 ZIndex: =1
@@ -2117,7 +2119,7 @@
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Icon: =Icon.Cancel
                 OnSelect: |-
-                    =UpdateContext({locMobileFilter: false})
+                    =UpdateContext({locMobileEdit: false})
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
@@ -2127,7 +2129,7 @@
         conRoomFilterMobile_MyBookingsScreen_1 As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
-            Height: =cmbRoomMobile_MyBookingScreen_1.Y+cmbRoomMobile_MyBookingScreen_1.Height+5
+            Height: =TextInput1.Y+TextInput1.Height+5
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -2153,34 +2155,32 @@
                 FontWeight: =FontWeight.Semibold
                 PaddingLeft: =0
                 Size: =15
-                Text: ="Room"
+                Text: ="Title"
                 ZIndex: =1
 
-            cmbRoomMobile_MyBookingScreen_1 As combobox:
+            TextInput1 As text:
                 BorderColor: =gblColors.LightGray
-                ChevronBackground: =gblColors.Blue
-                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                ChevronFill: =gblColors.GrayChevron
-                ChevronHoverBackground: =Self.ChevronBackground
-                ChevronHoverFill: =gblColors.GrayChevron
+                BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Title"]
+                Default: =""
+                DisabledBorderColor: =gblColors.LightGray
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                DisplayMode: =DisplayMode.Disabled
+                FocusedBorderThickness: =4
                 Font: =gblFont.Font
-                HoverBorderColor: =Self.BorderColor
+                HintText: ="Meeting Title"
+                HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Places
-                PressedBorderColor: =Self.BorderColor
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(0, 120, 212, 1)
-                SearchFields: =["Title"]
-                SearchItems: =Search(Places,cmbRoomMobile_MyBookingScreen_1.SearchText,"Title")
-                SelectionColor: =gblColors.GrayChevron
-                SelectionFill: =Self.ChevronBackground
+                HoverFill: =RGBA(255, 255, 255, 1)
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(0, 120, 212, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =13
                 Width: =Parent.Width-Parent.PaddingLeft*2
                 ZIndex: =2
@@ -2214,7 +2214,7 @@
                 FontWeight: =FontWeight.Semibold
                 PaddingLeft: =0
                 Size: =15
-                Text: ="Location"
+                Text: ="Room"
                 ZIndex: =1
 
             cmbLocationMobile_MyBookingsScreen_1 As combobox:
@@ -2229,17 +2229,18 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["City"]
+                DisplayFields: =["Title"]
                 Font: =gblFont.Font
                 HoverBorderColor: =Self.BorderColor
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
+                InputTextPlaceholder: ="Room"
                 Items: =Places
                 PressedBorderColor: =Self.BorderColor
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(0, 120, 212, 1)
-                SearchFields: =["City"]
-                SearchItems: =Search(Places,cmbLocationMobile_MyBookingsScreen_1.SearchText,"City")
+                SearchFields: =["Title"]
+                SearchItems: =Search(Places,cmbLocationMobile_MyBookingsScreen_1.SearchText,"Title")
                 SelectionColor: =gblColors.GrayChevron
                 SelectionFill: =Self.ChevronBackground
                 Size: =13
@@ -2275,7 +2276,7 @@
                 FontWeight: =FontWeight.Semibold
                 PaddingLeft: =0
                 Size: =15
-                Text: ="Start Date"
+                Text: ="Date"
                 ZIndex: =1
 
             dteStartDateMobile_MyBookingsScreen_1 As datepicker:
@@ -2294,13 +2295,14 @@
                 PaddingTop: =5
                 SelectedDateFill: =RGBA(0, 120, 212, 1)
                 Size: =13
+                StartYear: =2023
                 Width: =Parent.Width-Parent.PaddingLeft*2
                 ZIndex: =2
 
         conEndDateFilterMobile_MyBookingsScreen_1 As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
-            Height: =dteEndDateMobile_MyBookingsScreen_1.Y+dteEndDateMobile_MyBookingsScreen_1.Height+5
+            Height: =conTimeMobile_MyBookingsScreen.Y+conTimeMobile_MyBookingsScreen.Height+5
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -2326,27 +2328,57 @@
                 FontWeight: =FontWeight.Semibold
                 PaddingLeft: =0
                 Size: =15
-                Text: ="End Date"
+                Text: ="Time"
                 ZIndex: =1
 
-            dteEndDateMobile_MyBookingsScreen_1 As datepicker:
-                BorderColor: =gblColors.LightGray
-                CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                Color: =RGBA(51, 51, 51, 1)
-                DefaultDate: =//Today()
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Font: =gblFont.Font
-                HoverDateFill: =RGBA(200, 200, 200, 1)
-                IconBackground: =Color.White
-                IconFill: =gblColors.Blue
-                InputTextPlaceholder: =If(IsBlank(Self.SelectedDate), "to")
-                PaddingTop: =5
-                SelectedDateFill: =RGBA(0, 120, 212, 1)
-                Size: =13
-                Width: =Parent.Width-Parent.PaddingLeft*2
+            conTimeMobile_MyBookingsScreen As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =40
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
                 ZIndex: =2
+
+                icoTimeIconMobile_MyBookingsScreen As icon.Clock:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Color: =gblColors.Blue
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =Parent.Height
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Clock
+                    PaddingLeft: =3
+                    PaddingRight: =7
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =30
+                    X: =Parent.Width-Self.Width
+                    ZIndex: =1
+
+                lblEndDateTxtMobile_MyBookingsScreen_2 As label:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =gblFont.Font
+                    FontWeight: =FontWeight.Semibold
+                    Height: =Parent.Height
+                    PaddingLeft: =0
+                    Size: =15
+                    Text: |-
+                        ="11:00"
+                    ZIndex: =2
 
         conButtonsFilterMobile_MyBookingsScreen_1 As groupContainer.verticalAutoLayoutContainer:
             FillPortions: =0
@@ -2380,7 +2412,7 @@
                 HoverColor: =gblColors.Blue
                 HoverFill: =Color.White
                 OnSelect: |-
-                    =UpdateContext({locMobileFilter: false})
+                    =UpdateContext({locMobileEdit: false})
                 PressedBorderColor: =gblColors.Blue
                 PressedColor: =gblColors.Blue
                 PressedFill: =Color.White
@@ -2406,7 +2438,7 @@
                 HoverBorderColor: =gblColors.Blue
                 HoverFill: =Self.Fill
                 OnSelect: |-
-                    =UpdateContext({locMobileFilter: false})
+                    =UpdateContext({locMobileEdit: false})
                 PressedBorderColor: =gblColors.Blue
                 PressedColor: =Self.Color
                 PressedFill: =Self.Fill

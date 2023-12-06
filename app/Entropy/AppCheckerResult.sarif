@@ -174,46 +174,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 57,
-                  "snippet": {
-                    "text": "\"Title\""
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Search"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conLocationFilterMobile_MyBookingScreen_1.cmbLocationMobile_MyBookingsScreen_1.SearchItems"
                 }
               ],
@@ -223,10 +183,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 6,
+                  "charLength": 7,
                   "charOffset": 62,
                   "snippet": {
-                    "text": "\"City\""
+                    "text": "\"Title\""
                   }
                 }
               },
@@ -1903,36 +1863,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.cmbRoomMobile_MyBookingScreen_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conLocationFilterMobile_MyBookingScreen_1.cmbLocationMobile_MyBookingsScreen_1.AccessibleLabel"
                 }
               ],
@@ -1993,19 +1923,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conEndDateFilterMobile_MyBookingsScreen_1.dteEndDateMobile_MyBookingsScreen_1.AccessibleLabel"
+                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conEndDateFilterMobile_MyBookingsScreen_1.dteEndDateMobile_MyBookingsScreen_1.AccessibleLabel",
+                  "fullyQualifiedName": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "My Bookings Screen",
-                "type": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conEndDateFilterMobile_MyBookingsScreen_1.dteEndDateMobile_MyBookingsScreen_1"
+                "type": "'My Bookings Screen'.conEditMobile_MyBookingsScreen.conRoomFilterMobile_MyBookingsScreen_1.TextInput1"
               }
             }
           ],

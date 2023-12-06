@@ -1,6 +1,6 @@
 cmp_HomeButton As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =If(cmp_HomeButton.ScreenSize <> 1, 200, 70)
+    Height: =If(cmp_HomeButton.ScreenSize <> 1, 250, 70)
     Image: =CalendarCheck
     NavScreen: =App.ActiveScreen
     ScreenSize: =1
