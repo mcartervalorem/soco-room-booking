@@ -77,6 +77,71 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
+                Rectangle2 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Red
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =1
+
+                Rectangle3 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Blue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =2
+
+                Rectangle4 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightBlue
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =3
+
+                Rectangle5 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.LightGreen
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =4
+
+                Rectangle6 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =gblColors.Yellow
+                    FocusedBorderThickness: =4
+                    Height: =10
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =Parent.Width/5
+                    ZIndex: =5
+
             img_Home As image:
                 AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -121,6 +186,63 @@
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =4
+
+                Container5 As groupContainer.horizontalAutoLayoutContainer:
+                    LayoutGap: =30
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =If(Home.Size <> 1, cmp_HomeButton_1.Height + 60, cmp_HomeButton_1.Height * 3 + 120)
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    LayoutWrap: =true
+                    PaddingTop: =30
+                    ZIndex: =1
+
+                    cmp_HomeButton_1 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_1.ScreenSize <> 1, 200, 70)
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        NavScreen: =BookRoomWith
+                        ScreenSize: =Home.Size
+                        Width: =If(cmp_HomeButton_1.ScreenSize <> 1, 350, 350)
+
+                    cmp_HomeButton_2 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_2.ScreenSize <> 1, 200, 70)
+                        Image: =Calendar
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        NavScreen: =BookRoomWithout
+                        ScreenSize: =Home.Size
+                        Text: ="Book a Room without Meeting"
+                        Width: =If(cmp_HomeButton_2.ScreenSize <> 1, 350, 350)
+                        ZIndex: =2
+
+                    cmp_HomeButton_3 As cmp_HomeButton:
+                        Height: =If(cmp_HomeButton_3.ScreenSize <> 1, 200, 70)
+                        Image: =Building
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        NavScreen: ='My Bookings Screen'
+                        ScreenSize: =Home.Size
+                        Text: ="My Bookings"
+                        Width: =If(cmp_HomeButton_3.ScreenSize <> 1, 350, 350)
+                        ZIndex: =3
+
+                Container7 As groupContainer.horizontalAutoLayoutContainer:
+                    Fill: =gblColors.Background
+                    Height: =100
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =3
+
+                    cmp_AdminButton_1 As cmp_AdminButton:
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =100
+                        NavScreen: =AdminPanel
+                        ScreenSize: =Home.Size
+                        Width: =If(Home.Size <> 1, cmp_HomeButton_1.Width * 3 + 60, cmp_HomeButton_1.Width)
 
     lbl_AppName_Mobile As label:
         BorderColor: =RGBA(0, 0, 0, 0)
